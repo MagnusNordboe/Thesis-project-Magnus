@@ -52,7 +52,7 @@ def main(runtime=RUN_TIME):
     runs = int(input("Amount of runs: integer only"))
 
     for x in range(runs):
-        setLoop(tags_and_amounts, runtime)
+        setloop_random(tags_and_amounts, runtime)
 
     # for tag in tags_and_amounts["tags"]:
 
@@ -101,7 +101,7 @@ def setloop_random(tags_and_amounts, runtime):
                 outputfile.close()
         
         time.sleep(15)
-        collection.collection(RUN_TIME+1, DEFAULT_STEP, "./metrics.json", "rand " + now_unix + "_" + amount,tag, now_unix)
+        collection.collection(RUN_TIME+1, DEFAULT_STEP, "./metrics.json", "rand " + str(now_unix) + "_" + str(amount),tag, now_unix)
 
 
 if __name__ == "__main__":

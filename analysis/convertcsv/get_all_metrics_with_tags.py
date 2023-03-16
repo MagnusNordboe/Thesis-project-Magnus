@@ -4,17 +4,19 @@ def get_all_metrics_with_tags(directory:str) -> list:
     """
     Directory should be absolute path
     """
-    output = []
+    path = []
+    tag = []
     for tag_dir in os.listdir(directory):
         d = os.path.join(directory, tag_dir)
         if os.path.isdir(d):
             for file in os.listdir(d):
                 if file.split(".")[-1] == "csv":
-                    ospath = os.path.abspath(file)
+                    ospath = os.path.join(d, file)
                     fixed = ospath.replace("\\", "/")
-                    output.append((fixed, tag_dir))
+                    path.append(fixed)
+                    tag.append(tag_dir)
                     
-    return output
+    return (path, tag)
     
 
 if __name__ == "__main__":
