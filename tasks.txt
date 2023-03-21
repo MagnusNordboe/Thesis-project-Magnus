@@ -85,3 +85,9 @@ For today: set up DTW. Should be okay with some of the tools on hand. Just gotta
 Using various built in correlation methods should not be so hard. Build a python program that genreates data, then runs the various correltation graphs. Then give a loss function about how far off each thing is. Could then start implementing weighting?
 A simple machine learning platform that finds out which predefined comparison method is best suited?
 Possible methinks.
+
+Clean up complete_df.py, program.py, other python files
+Make table of all results
+Visualize input data before processing. Perhaps also visualize after preprocessing?
+Build pipelines
+Run comparisons

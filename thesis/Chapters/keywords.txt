@@ -1,0 +1,17 @@
+quality of the data
+Signal to noise ratio
+scalability
+
+Idea for thing:
+
+1: introduction. Abstract, keywords, research questions.
+2: Background. Write about the state of microservices at time of writing, keep it to what's relevant to the paper
+3: Research process:
+The hypothesized idea about pregenerating a bunch of data with stress testing, locust, running it through machine learning algorithms. 
+ Write about the decisions made, the choice of microservices-demo, the initial idea, refining it iteraitvley by seeing what comes out.
+The process of treating the data so it can be fed into algorithms
+4: The results. Lots and lots of graphs and data about the performance of the various methods of preprocessing and machine learning.
+5: Discussion. Look at the resulting data and talk about what this means for the field.
+6: Conclusion. Tell yourself you did a great job.
+
+compare scaling across all instances vs scaling per instance, with assumption that scaling per instance is better.

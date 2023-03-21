@@ -21,12 +21,14 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: example.bib
+Database file #3: sources.bib
+Database file #4: library.bib
 Biblatex version: 3.18
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 4 entries,
             6399 wiz_defined-function locations,
-            1234 strings with 11030 characters,
+            1235 strings with 11037 characters,
 and the built_in function-call counts, 32843 in all, are:
 = -- 2702
 > -- 447

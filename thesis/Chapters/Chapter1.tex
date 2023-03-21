@@ -15,6 +15,12 @@
 
 %----------------------------------------------------------------------------------------
 
+\section{Keywords}
+
+Observability \\
+Microservices \\
+Signal-to-noise ration \\
+
 \section{Abstract}
 This thesis project aims to explore the practicality and efficacy of multivariate time series classification to quickly diagnose performance bottlenecks in a microservice system.
 A simple microservice system running in Docker was forked from another project and minimally adjusted. Metrics were collected about the system using the Prometheus monitoring software, and stress testing was done at the API level with Pumba. 
@@ -22,12 +28,26 @@ The resulting data was fed into different MTS machine learning algorithms to jud
 Finally, the results of these predictions were compared and the methods for collecting, treating and training on the data were documented to benefit future implementations of a similar approach.
 
 
-\section{Welcome and Thank You}
-Welcome to this \LaTeX{} Thesis Template, a beautiful and easy to use template for writing a thesis using the \LaTeX{} typesetting system.
+\section{Research area and questions}
+The research area for this thesis is microservices and mahcine learning. An inevitable intersection appears between the two fields
+when the need for analysis of data from microservice systems arises. This is because these complex systems are capable of generating a 
+vast amount of metric data about themselves. The amount of data is too large for a human to read, comprehend and reason about in any efficient capacity. 
+This can make it very difficult to draw useful conclusions about the system. This is where machine learning comes in as a natural answer to the problem:
+While humans are limited in the amount of information they can comprehend, machines typically only benefit from absurdly large datasets to draw from, as long as
+the data is of acceptable quality. However, the field of machine learning applications on microservice system data is still immature as of time of writing. This thesis seeks to broach the subject further.\\
+\keyword{Research question 1}: How good are current machine learning classification algorithms at identifying causes for anomalous behaviour in microservice systems?\\
+\keyword{Research question 2}: What are the current main challenges to effectively utilize metric data from microservice systems?
 
-If you are writing a thesis (or will be in the future) and its subject is technical or mathematical (though it doesn't have to be), then creating it in \LaTeX{} is highly recommended as a way to make sure you can just get down to the essential writing without having to worry over formatting or wasting time arguing with your word processor.
 
-\LaTeX{} is easily able to professionally typeset documents that run to hundreds or thousands of pages long. With simple mark-up commands, it automatically sets out the table of contents, margins, page headers and footers and keeps the formatting consistent and beautiful. One of its main strengths is the way it can easily typeset mathematics, even \emph{heavy} mathematics. Even if those equations are the most horribly twisted and most difficult mathematical problems that can only be solved on a super-computer, you can at least count on \LaTeX{} to make them look stunning.
+\section{List of terms}
+\begin{itemize}
+\item \keyword{Dynamic Time Warping}: A method of stasticically comparing time series across time points to judge similarity.
+\item \keyword{Multivariate Time Series (MTS)}: Time series data with two or more variables.
+\item \keyword{Instance}: All the data collected from a system in a specific time frame, represented as a MTS.
+\item \keyword{Feature}: A unique Prometheus metric that expresses some kind of information about the system as a number. Collected at fixed intervals to form a MTS.
+\item \keyword{Time frame}: The period of time recorded in a time series. Each instance in this thesis corresponds to a specific time frame.
+\end{itemize}
+
 
 %----------------------------------------------------------------------------------------
 

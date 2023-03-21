@@ -12,5 +12,10 @@ All right lets think properly about This
 Now I need to pass in 'y' parameter
 After that I need enough generatedstuff
 
-For today: Make better generator.
-Goals to pass: 
+Bias in the data: Some types of data that comes out serves no purpose other than confuse the learning algorithm.
+The case of go_gc_duration: In most cases(of stable running), it only tracks how long the thing has been running. 
+This leads to a erroneous bias where, if having collected the types of training data in batches, it will wrongfully
+associate the value range with the type of stress the system is under. Solution: Change monotonoically increasing values
+to only display the change per timestamp, then train for handling (mostly) static data. This can be a blessing and a curse.
+If training data includes some spikes where the stress is enough for the service to crash, it would be useful to include.
+Otherwise, it is simply useless noise.
