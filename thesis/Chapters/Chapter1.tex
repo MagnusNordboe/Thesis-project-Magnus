@@ -29,23 +29,33 @@ Finally, the results of these predictions were compared and the methods for coll
 
 
 \section{Research area and questions}
-The research area for this thesis is microservices and mahcine learning. An inevitable intersection appears between the two fields
+The research area for this thesis is microservices and machine learning. An inevitable intersection appears between the two fields
 when the need for analysis of data from microservice systems arises. This is because these complex systems are capable of generating a 
 vast amount of metric data about themselves. The amount of data is too large for a human to read, comprehend and reason about in any efficient capacity. 
 This can make it very difficult to draw useful conclusions about the system. This is where machine learning comes in as a natural answer to the problem:
 While humans are limited in the amount of information they can comprehend, machines typically only benefit from absurdly large datasets to draw from, as long as
-the data is of acceptable quality. However, the field of machine learning applications on microservice system data is still immature as of time of writing. This thesis seeks to broach the subject further.\\
-\keyword{Research question 1}: How good are current machine learning classification algorithms at identifying causes for anomalous behaviour in microservice systems?\\
+the data is of acceptable quality. However, the field of machine learning applications on microservice system data is still immature as of time of writing. 
+This thesis seeks to analyze a small subset of this field. The scope will be contained to identifying latency issues resulting from disproportionally high load in a part of the system, using only data from centralized logging.\\
+\keyword{Research question 1}: How good are current machine learning classification algorithms at identifying causes for anomalous behavior in microservice systems?\\
 \keyword{Research question 2}: What are the current main challenges to effectively utilize metric data from microservice systems?
+
+\section{Approach}
+%Researched ways of generating good data about microservice systems to use
+%Used microservices-demo and its limited collection
+%Purpose became to find what one could from the limited data that was collected.
+To research these questions, a way to generate realistic metric data about a microservice system was needed. 
+
 
 
 \section{List of terms}
 \begin{itemize}
-\item \keyword{Dynamic Time Warping}: A method of stasticically comparing time series across time points to judge similarity.
+\item \keyword{Dynamic Time Warping}: A method of statistically comparing time series across time points to judge similarity.
 \item \keyword{Multivariate Time Series (MTS)}: Time series data with two or more variables.
-\item \keyword{Instance}: All the data collected from a system in a specific time frame, represented as a MTS.
-\item \keyword{Feature}: A unique Prometheus metric that expresses some kind of information about the system as a number. Collected at fixed intervals to form a MTS.
+\item \keyword{Instance}: All the data collected from a system in a specific time frame, represented as an MTS.
+\item \keyword{Feature}: A unique Prometheus metric that expresses some kind of information about the system as a number. Collected at fixed intervals to form an MTS.
 \item \keyword{Time frame}: The period of time recorded in a time series. Each instance in this thesis corresponds to a specific time frame.
+\item \keyword{Centralized logging}: Umbrella term for various microservice info logging methods that collect logs from individual microservices and stores them together. 
+\item \keyword{Distributed tracing}: 
 \end{itemize}
 
 

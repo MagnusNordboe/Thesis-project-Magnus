@@ -53,13 +53,7 @@
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{abstract}{%
-    Operating a laser diode in an extended cavity which provides
-  frequency-selective feedback is a very effective method of reducing the
-  laser's linewidth and improving its tunability. We have developed an
-  extremely simple laser of this type, built from inexpensive commercial
-  components with only a few minor modifications. A 780~nm laser built to this
-  design has an output power of 80~mW, a linewidth of 350~kHz, and it has been
-  continuously locked to a Doppler-free rubidium transition for several days.%
+    Operating a laser diode in an extended cavity which provides frequency-selective feedback is a very effective method of reducing the laser's linewidth and improving its tunability. We have developed an extremely simple laser of this type, built from inexpensive commercial components with only a few minor modifications. A 780~nm laser built to this design has an output power of 80~mW, a linewidth of 350~kHz, and it has been continuously locked to a Doppler-free rubidium transition for several days.%
     }
     \field{number}{3}
     \field{pages}{1236\bibrangedash 1239}
@@ -103,17 +97,11 @@
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
-    We have developed an enhanced Littrow configuration extended cavity diode
-  laser (ECDL) that can be tuned without changing the direction of the output
-  beam. The output of a conventional Littrow ECDL is reflected from a plane
-  mirror fixed parallel to the tuning diffraction grating. Using a free-space
-  Michelson wavemeter to measure the laser wavelength, we can tune the laser
-  over a range greater than 10 nm without any alteration of alignment.%
+    We have developed an enhanced Littrow configuration extended cavity diode laser (ECDL) that can be tuned without changing the direction of the output beam. The output of a conventional Littrow ECDL is reflected from a plane mirror fixed parallel to the tuning diffraction grating. Using a free-space Michelson wavemeter to measure the laser wavelength, we can tune the laser over a range greater than 10 nm without any alteration of alignment.%
     }
     \field{number}{12}
     \field{pages}{4477\bibrangedash 4479}
-    \field{title}{Littrow Configuration Tunable External Cavity Diode Laser
-  with Fixed Direction Output Beam}
+    \field{title}{Littrow Configuration Tunable External Cavity Diode Laser with Fixed Direction Output Beam}
     \verb{url}
     \verb http://link.aip.org/link/?RSI/72/4477/1
     \endverb
@@ -148,13 +136,7 @@
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{abstract}{%
-    We present a review of the use of diode lasers in atomic physics with an
-  extensive list of references. We discuss the relevant characteristics of
-  diode lasers and explain how to purchase and use them. We also review the
-  various techniques that have been used to control and narrow the spectral
-  outputs of diode lasers. Finally we present a number of examples illustrating
-  the use of diode lasers in atomic physics experiments. Review of Scientific
-  Instruments is copyrighted by The American Institute of Physics.%
+    We present a review of the use of diode lasers in atomic physics with an extensive list of references. We discuss the relevant characteristics of diode lasers and explain how to purchase and use them. We also review the various techniques that have been used to control and narrow the spectral outputs of diode lasers. Finally we present a number of examples illustrating the use of diode lasers in atomic physics experiments. Review of Scientific Instruments is copyrighted by The American Institute of Physics.%
     }
     \field{number}{1}
     \field{pages}{1\bibrangedash 20}
