@@ -1,0 +1,2 @@
+running with <10000 users seems to simply crash parts of the system and I cant collect data
+Could also be just a spawnrate issue
