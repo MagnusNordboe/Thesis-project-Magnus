@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.24)  27 MAR 2023 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.24)  28 MAR 2023 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,7 +664,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 92.
  (/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./main.aux (./Chapters/Chapter1.aux) (./Appendices/AppendixA.aux))
+) (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -769,7 +769,13 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Gouigoux2017':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 92.
 Package biblatex Info: Reference segment=0 on input line 92.
 Package hyperref Info: Link coloring ON on input line 92.
@@ -842,21 +848,21 @@ File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 21.
-)
+
+1: section
+[11{/home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-1: section
-[11{/home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [12
-
-] (./main.lof)
+ [12] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
 
 1: section
-[13] [14
+[13
+
+] [14
 
 ] (./main.lot)
 \tf@lot=\write7
@@ -893,48 +899,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
 
 ]
-Overfull \hbox (3.5689pt too wide) in paragraph at lines 57--58
+Overfull \hbox (3.5689pt too wide) in paragraph at lines 55--56
 []\T1/ppl/b/n/10.95 Dynamic Time Warp-ing\T1/ppl/m/n/10.95 : A method of sta-tis-ti-cally com-par-ing time se-ries across
  []
 
 [2] [3]
-Overfull \hbox (12.15245pt too wide) in paragraph at lines 114--116
+Overfull \hbox (12.15245pt too wide) in paragraph at lines 112--114
 \T1/ppl/m/n/10.95 site, here: [][]$\T1/cmtt/m/n/10.95 http : / / www . ecs . soton . ac . uk / ~srg / softwaretools / document / templates/$[][] 
  []
 
 [4]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 178.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 176.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sl' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 182.
+(Font)              using `T1/cmtt/bx/n' instead on input line 180.
 
 [5] [6]
-Overfull \hbox (8.37132pt too wide) in paragraph at lines 222--223
+Overfull \hbox (8.37132pt too wide) in paragraph at lines 220--221
 \T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/cmtt/m/it/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/cmtt/m/n/10.95 documentclass
  []
 
 [7] [8]
-<Figures/Electron.pdf, id=349, 398.3386pt x 284.52756pt>
+<Figures/Electron.pdf, id=369, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
 <use Figures/Electron.pdf>
-Package pdftex.def Info: Figures/Electron.pdf  used on input line 304.
+Package pdftex.def Info: Figures/Electron.pdf  used on input line 302.
 (pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
  [9]
-Overfull \hbox (0.90797pt too wide) in paragraph at lines 350--351
+Overfull \hbox (0.90797pt too wide) in paragraph at lines 348--349
 \T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at all the [][]\T1/cmtt/m/n/10.95 \chapter{}[]\T1/ppl/m/n/10.95 , [][]\T1/cmtt/m/n/10.95 \section{}
  []
 
 
-Overfull \hbox (0.45015pt too wide) in paragraph at lines 352--353
+Overfull \hbox (0.45015pt too wide) in paragraph at lines 350--351
 []\T1/ppl/m/n/10.95 The Ta-ble of Con-tents should only list the sec-tions to three (3) lev-els. A [][]\T1/cmtt/m/n/10.95 chapter{}
  []
 
 [10 <./Figures/Electron.pdf>]) [11]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (./Chapters/Chapter2.tex [12
+
+
+
+
+]
+Chapter 2.
+)
+1: section
+[13]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex [12
+ (./Appendices/AppendixA.tex [14
 
 
 
@@ -943,13 +961,17 @@ Overfull \hbox (0.45015pt too wide) in paragraph at lines 352--353
 Appendix A.
 )
 1: section
-[13] [14
+[15] [16
 
 
 
 ]
+Overfull \hbox (8.42946pt too wide) in paragraph at lines 261--261
+[]\T1/ppl/m/n/10.95 J. P. Gouigoux and D. Tamza-lit, ^^P  From mono-lith to mi-croser-vices: Lessons learned
+ []
+
 1: section
-[15] (./main.aux (./Chapters/Chapter1.aux) (./Appendices/AppendixA.aux))
+[17] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Appendices/AppendixA.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -957,7 +979,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 58B2254FF36AB49021ED7877ACB47BB9;5315.
+(rerunfilecheck)             Checksum: 153CCCA9FD6CD83CB85249496B6B576A;5906.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -968,18 +990,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28851 strings out of 476025
- 633810 string characters out of 5789025
- 1869388 words of memory out of 5000000
- 48854 multiletter control sequences out of 15000+600000
+ 28909 strings out of 476025
+ 635612 string characters out of 5789025
+ 1870388 words of memory out of 5000000
+ 48897 multiletter control sequences out of 15000+600000
  579907 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,21n,93p,1906b,1922s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,21n,93p,1906b,2755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/magnus/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (35 pages, 282486 bytes).
+Output written on main.pdf (37 pages, 289990 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 84 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 486 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

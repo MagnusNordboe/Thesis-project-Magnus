@@ -46,11 +46,9 @@ This thesis seeks to analyze a small subset of this field. The scope will be con
 To research these questions and try to create meaningful results that can have a real impact, I formulated a hypothesis to work as the base for the project. 
 \textbf{\textit{It is possible to use stress testing software and centralized logging to create a machine learning model of the system behavior to classify and identify sources of latency in a microservice system.}}
 To test this hypothesis, a fork of the open source demo microservice project "sockshop" by Weaveworks was used \cite*{Microservices-demo-sockshop}. This system was hosted on a local machine and stress tested using various configurations.
-Locust, an API stress testing tool.The full spectrum of available Prometheus metric data was collected in 601 time series features into csv files and labeled. There were a total of five classes, representing different endpoints connecting to different underlying microservices.
+Locust, an API stress testing tool. The full spectrum of available Prometheus metric data was collected in 601 time series features into csv files and labeled. There were a total of five classes, representing different endpoints connecting to different underlying microservices.
 This data was then analyzed both manually and mathematically, and preprocessed to reduce noise and extract important features. 
 Several methods of preprocessing and classifying were quantitatively compared. Finally, the results of the analysis were discussed and conclusions drawn.
-
-
 
 \section{List of terms}
 \begin{itemize}

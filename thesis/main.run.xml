@@ -89,7 +89,7 @@
     <requires type="editable">
       <file>example.bib</file>
       <file>sources.bib</file>
-      <file>library.bib</file>
+      <file>Masters-Magnus-thesis.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

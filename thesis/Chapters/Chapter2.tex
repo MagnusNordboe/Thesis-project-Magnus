@@ -1,0 +1,24 @@
+\chapter{Background}
+
+\label{Chapter2}
+
+This section will present the main concepts that are relevant to the thesis project and the reason why it's useful.
+It will first explain the main theory behind microservices and how it seeks to solve the main problems in legacy software architectures. Then it will
+detail the new issues that arise from microservices. Finally, it will paint a picture of today's landscape of distributed software and 
+tie it all together to explain the value of the research in this project.
+
+\section{Microservices}
+\subsection{The monolith}
+In general when talking about both microservices and distributed computing in general, the concept of a \textbf{Monolith} often gets brought up. 
+The monolith is this concept of a large, self-contained application where all the code and functionality is tightly bundled together, and is very hard to separate into individual parts.
+The definition has changed over time: According to the ITS back in 2001 \cite{ITS}, a monolith was "An application in which the user interface, business rules, and data access code is combined into a single executable program and deployed on one platform."
+However, most modern interpretations online refer back to a book from 2003 called \textit{The art of Unix programming}. Usually referred to as "monster monoliths", it marks the beginning of the trend of using the term monolith as a bogeyman of unmaintainable, poorly planned code. 
+This trend has been continued in modern days with software "gurus" and the like when needing something to compare to our lord and savior microservices\cite*{Gouigoux2017}.
+It is therefore important to remember that:
+1: The monolith is not a defined software architecture design paradigm. Rather, it is the default type of application that arises when not taking great effort and intentionality to split the code up in many distinct parts.
+2: The monolith is not some damnable evil to be conquered: On software projects of a less-than-huge scale, very often is quite optimal. It doesn't have to deal with inter-component communication. Keeping everything contained in one code base makes it easy to run and test on local machines, keeps all the code in one place for easy access, and so on. 
+3: The monolith mostly just exists as a concept when talking about microservices. Its purpose is mainly to demonstrate the benefits of microservices in large software.
+
+With that out of the way, let's discuss the problems with monolithic software that microservices seek to amend.
+
+\subsection{The problems with monolithic software}
