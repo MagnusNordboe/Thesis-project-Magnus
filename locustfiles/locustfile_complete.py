@@ -25,28 +25,31 @@ class UserTasks(HttpUser):
     @task
     def even_load(self):
 
-        self.client.get("/index.html")
-        self.client.get("/category.html")
-        self.client.get("/category.html?tags=" + random.choice(filterList))
-        self.client.get("/detail.html?id=" + random.choice(productList))
+        self.client.get("/index.html").close()
+        self.client.get("/category.html").close()
+        self.client.get("/category.html?tags=" + random.choice(filterList)).close()
+        self.client.get("/detail.html?id=" + random.choice(productList)).close()
         for _ in range(random.choice([1,2,3,4,5,6,7,8,9])):
-            self.client.post("/cart", json={"id": random.choice(productList)})
-        self.client.get("/basket.html")
-        self.client.get("/orders")
-        self.client.get("/customer-orders.html")
-        self.client.get("/index.html")
+            self.client.post("/cart", json={"id": random.choice(productList)}).close()
+        self.client.get("/basket.html").close()
+        self.client.get("/orders").close()
+        self.client.get("/customer-orders.html").close()
+        self.client.get("/index.html").close()
 
     def on_start(self):
         self.client.get("/login", headers={"Authorization":"Basic bG9jdXN0OmxvY3VzdA=="})
+
+    def on_stop(self):
+        self.client.close()
     
     @tag('carts')
     @task
     def carts(self):
         for i in range(random.choice([1,2,3,4,5,6,7,8,9])):
             prod =  random.choice(productList)
-            self.client.post("/cart", json={"id": prod})
-            self.client.post("/cart/update", json={"id": prod, "quantity": i })
-        self.client.get("/basket.html")
+            self.client.post("/cart", json={"id": prod}).close()
+            self.client.post("/cart/update", json={"id": prod, "quantity": i }).close()
+        self.client.get("/basket.html").close()
         #self.client.delete("/cart")
     
     @tag('users')
@@ -56,32 +59,32 @@ class UserTasks(HttpUser):
         self.client.cookies.clear()
         response = self.client.post("/register", json={"username": randomstring, "password":"qwerty", "email": randomstring } )
         id = response.json()["id"]
-        loginres = self.client.get("/login", headers={"Authorization":createcreds(randomstring, "qwerty")})
+        loginres = self.client.get("/login", headers={"Authorization":createcreds(randomstring, "qwerty")}).close()
         if not loginres.ok:
             logging.info("Login failed: " + loginres.text + loginres.reason)
         self.client.post("/addresses", json={"number": "12345678",
         "street": "nowhere st",
         "city": "cornucopia",
         "postcode": "1234",
-        "country": "albania"})
+        "country": "albania"}).close()
         self.client.post("/cards", json={
             "longNum": "123456",
             "expires": "12/24",
             "ccv":"123"
-        })
-        self.client.delete("/customers/" + id)
+        }).close()
+        self.client.delete("/customers/" + id).close()
     
     @tag('catalog')
     @task
     def catalog(self):
-        self.client.get("/category.html?tags=" + random.choice(filterList))
+        self.client.get("/category.html?tags=" + random.choice(filterList)).close()
     
     ##NOTE: This endpoint is noted in the docs but is not implemented
     @tag('payment')
     @task
     def payment(self):
-        self.client.get("/health")
-        self.client.post("/paymentAuth", json={"authorised":"true"})
+        self.client.get("/health").close()
+        self.client.post("/paymentAuth", json={"authorised":"true"}).close()
 
     @tag('idle')
     @task

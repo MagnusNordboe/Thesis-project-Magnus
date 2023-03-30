@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.decomposition import PCA
 
 def removeNaNs(df:pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
@@ -46,7 +47,14 @@ def make_datetime_index(timestamps:list) -> pd.DatetimeIndex:
     return index
 
 def readcsv_modified(csv_loc:str) ->pd.DataFrame:
-    csv = pd.read_csv(csv_loc)
+    csv:pd.DataFrame
+    try:
+        csv = pd.read_csv(csv_loc, skip_blank_lines=True)   
+    except pd.errors.ParserError:
+        return
+    except pd.errors.EmptyDataError:
+        print(csv_loc)
+        return
     metrics = csv["identifier"].to_list()
     timestamps = csv.columns[1:].to_flat_index()
     timestamps = timestamps.to_numpy().tolist()
@@ -56,10 +64,23 @@ def readcsv_modified(csv_loc:str) ->pd.DataFrame:
     s = pd.DataFrame(vals, index=timestamps, columns=metrics)
     return s
 
-def readcsvs(csv_loc_list:list, remove_monotonic_increasing=True, remove_nans=True,remove_unique_cols=True):
+def readcsvs(csv_loc_list:list, remove_monotonic_increasing=True, remove_nans=True,remove_unique_cols=True, pca_components=0):
     individual_dataframes = []
     for i in range(len(csv_loc_list)):
-        individual_dataframes.append(readcsv_modified(csv_loc_list[i])) #time series
+        df = readcsv_modified(csv_loc_list[i])
+        #The read_csv pandas function sometimes fails when something went wrong with the metric collection from prometheus. These are simply skipped without throwing errors
+        if df is not None:
+            individual_dataframes.append(df) #time series
+
+    if pca_components != 0:
+        pca_scaler = PCA(n_components = pca_components)
+        concated_for_pca = pd.concat(individual_dataframes)
+        scaled = pca_scaler.fit_transform(concated_for_pca)
+        print(scaled)
+
+
+        
+    return
 
     if remove_monotonic_increasing:
         individual_dataframes = remove_monotonically_increasing_rows(individual_dataframes)
@@ -77,3 +98,6 @@ def readcsvs(csv_loc_list:list, remove_monotonic_increasing=True, remove_nans=Tr
 
 
     return concated
+
+from get_all_metrics_with_tags import get_all_metrics_with_tags
+readcsvs(get_all_metrics_with_tags(r"F:\Master\Kubernetes\sockshop\microservices-demo\query\automated\generated_csvs_4")[0], pca_components=100)
