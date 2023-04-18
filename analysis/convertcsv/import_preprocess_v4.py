@@ -58,7 +58,7 @@ def _readcsv_modified(csv_loc:str) ->pd.DataFrame:
     s = pd.DataFrame(vals, index=timestamps, columns=metrics)
     return s
 
-def _reduce_NaNs_treshold(df:pd.DataFrame, treshold:int):
+def reduce_NaNs_treshold(df:pd.DataFrame, treshold:int):
     #Calculate the percent of NaNs in each columns (corresponds to feature in the time series)
     length = len(df)
     nan_counts = df.isna().sum()
@@ -98,6 +98,7 @@ def readcsvs(csv_loc_list:list, remove_monotonic_increasing=True, reduce_NaNs_tr
     concated = convert_to(individual_dataframes,to_type='pd-multiindex' )
     #NaNs can appear when concating dfs so this is done after the conversion to multiindex df
     if reduce_NaNs_treshold:
-        concated = _reduce_NaNs_treshold(concated, reduce_NaNs_treshold)
+        concated = reduce_NaNs_treshold(concated, reduce_NaNs_treshold)
 
     return concated
+
