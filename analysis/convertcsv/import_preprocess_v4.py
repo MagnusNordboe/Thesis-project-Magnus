@@ -81,7 +81,8 @@ def readcsvs(csv_loc_list:list, remove_monotonic_increasing=True, reduce_NaNs_tr
         #The read_csv pandas function sometimes fails when something went wrong with the metric collection from prometheus. These are simply skipped without throwing errors
         if df is not None:
             individual_dataframes.append(df) #time series
-
+        else:
+            print(i)
     # if pca_components != 0:
     #     pca_scaler = PCA(n_components = pca_components)
     #     concated_for_pca = pd.concat(individual_dataframes)
