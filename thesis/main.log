@@ -664,7 +664,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 92.
  (/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Appendices/AppendixA.aux))
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -768,21 +768,14 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout3 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl
+Package biblatex Info: ... file 'main.bbl' not found.
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Gouigoux2017':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 92.
 Package biblatex Info: Reference segment=0 on input line 92.
 Package hyperref Info: Link coloring ON on input line 92.
- (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
-
 
 1: section
 [1
@@ -841,33 +834,26 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 1: section
 [9] [10
 
-] (./main.toc
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 21.
- (/home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 21.
-
-1: section
-[11{/home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
+]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [12] (./main.lof)
+1: section
+[11] [12
+
+]
+No file main.lof.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-
 1: section
-[13
+[13] [14
 
-] [14
-
-] (./main.lot)
+]
+No file main.lot.
 \tf@lot=\write7
 \openout7 = `main.lot'.
-
 
 1: section
 [15] [16
@@ -899,11 +885,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
 
 ]
+
+LaTeX Warning: Citation 'Microservices-demo-sockshop' on page 2 undefined on input line 48.
+
+
 Overfull \hbox (3.5689pt too wide) in paragraph at lines 55--56
 []\T1/ppl/b/n/10.95 Dynamic Time Warp-ing\T1/ppl/m/n/10.95 : A method of sta-tis-ti-cally com-par-ing time se-ries across
  []
 
-[2] [3]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 69.
+(/home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) [2{/home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 98.
+
+
+LaTeX Warning: Reference `FillingFile' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `FillingFile' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `ThesisConventions' on page 3 undefined on input line 104.
+
+[3]
 Overfull \hbox (12.15245pt too wide) in paragraph at lines 112--114
 \T1/ppl/m/n/10.95 site, here: [][]$\T1/cmtt/m/n/10.95 http : / / www . ecs . soton . ac . uk / ~srg / softwaretools / document / templates/$[][] 
  []
@@ -921,13 +927,33 @@ Overfull \hbox (8.37132pt too wide) in paragraph at lines 220--221
 \T1/ppl/m/n/10.95 sided print-ing is as sim-ple as un-com-ment-ing the \T1/cmtt/m/it/10.95 oneside \T1/ppl/m/n/10.95 op-tion of the \T1/cmtt/m/n/10.95 documentclass
  []
 
-[7] [8]
-<Figures/Electron.pdf, id=369, 398.3386pt x 284.52756pt>
+
+LaTeX Warning: Citation 'Reference1' on page 7 undefined on input line 234.
+
+
+LaTeX Warning: Citation 'Reference2' on page 7 undefined on input line 234.
+
+
+LaTeX Warning: Citation 'Reference1' on page 7 undefined on input line 234.
+
+
+LaTeX Warning: Citation 'Reference3' on page 7 undefined on input line 234.
+
+[7]
+
+LaTeX Warning: Reference `tab:treatments' on page 8 undefined on input line 284.
+
+[8]
+<Figures/Electron.pdf, id=188, 398.3386pt x 284.52756pt>
 File: Figures/Electron.pdf Graphic file (type pdf)
 <use Figures/Electron.pdf>
 Package pdftex.def Info: Figures/Electron.pdf  used on input line 302.
 (pdftex.def)             Requested size: 398.33762pt x 284.52686pt.
- [9]
+
+
+LaTeX Warning: Reference `fig:Electron' on page 9 undefined on input line 310.
+
+[9]
 Overfull \hbox (0.90797pt too wide) in paragraph at lines 348--349
 \T1/ppl/m/n/10.95 au-to-mat-i-cally builds a ta-ble of Con-tents by look-ing at all the [][]\T1/cmtt/m/n/10.95 \chapter{}[]\T1/ppl/m/n/10.95 , [][]\T1/cmtt/m/n/10.95 \section{}
  []
@@ -947,6 +973,12 @@ Overfull \hbox (0.45015pt too wide) in paragraph at lines 350--351
 
 ]
 Chapter 2.
+
+LaTeX Warning: Citation 'ITS' on page 13 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'Gouigoux2017' on page 13 undefined on input line 16.
+
 )
 1: section
 [13]
@@ -986,17 +1018,11 @@ Overfull \hbox (3.42665pt too wide) in paragraph at lines 26--27
 Appendix A.
 )
 1: section
-[17] [18
+[17]
 
+LaTeX Warning: Empty bibliography on input line 261.
 
-
-]
-Overfull \hbox (8.42946pt too wide) in paragraph at lines 261--261
-[]\T1/ppl/m/n/10.95 J. P. Gouigoux and D. Tamza-lit, ^^P  From mono-lith to mi-croser-vices: Lessons learned
- []
-
-1: section
-[19] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Appendices/AppendixA.aux))
+(./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Appendices/AppendixA.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1012,8 +1038,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 153CCCA9FD6CD83CB85249496B6B576A;5906
-(rerunfilecheck)             After:  5F171D8D2697268BF892FEA5FCFF78E8;6385.
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  C0E91389F604090F373E3760D37B5899;6278.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1024,27 +1050,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28946 strings out of 476025
- 636678 string characters out of 5789025
- 1870388 words of memory out of 5000000
- 48918 multiletter control sequences out of 15000+600000
+ 28815 strings out of 476025
+ 633786 string characters out of 5789025
+ 1867388 words of memory out of 5000000
+ 48819 multiletter control sequences out of 15000+600000
  579907 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,21n,93p,1906b,2755s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{appendix*.48} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.47} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{appendix.46} has been referenced but does not exist, replaced by a fixed one
-
+ 96i,21n,93p,1906b,1806s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/magnus/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (39 pages, 294093 bytes).
+Output written on main.pdf (37 pages, 281695 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 500 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 377 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
