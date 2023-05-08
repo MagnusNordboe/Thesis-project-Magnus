@@ -49,7 +49,8 @@ def main(runtime=RUN_TIME):
     jsonfile = open(TAGS_AND_AMOUNTS_LOCATION)
     tags_and_amounts = json.load(jsonfile)
 
-    runs = int(input("Amount of runs: integer only"))
+   # runs = int(input("Amount of runs: integer only"))
+    runs = 1
 
     for x in range(runs):
         setloop_random(tags_and_amounts, runtime)
