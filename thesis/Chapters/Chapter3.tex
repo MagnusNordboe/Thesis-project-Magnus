@@ -1,4 +1,4 @@
-\Chapter{Methodology}
+\chapter{Methodology}
 
 \section{Imputation}
 
@@ -23,8 +23,19 @@ Factors such as the test machine's poor performance under heavy load or data los
 
 There are two main ways to deal with this problem:
 \begin{itemize}
-    \item Use only algorithms that can handle series of unequal length. In sklearn/sktime this amounts to exactly two classifiers, a KNN classifier and an SVC (Support vector classifier). They will be used for comparison, but having more options to compare would be better.
+    \item Use only algorithms that can handle series of unequal length. 
     \item Perform 
 \end{itemize}
 
+In sklearn/sktime, exactly two classifiers are able to handle series of series length: A KNN classifier and an SVC (Support vector classifier). They will be used for comparison, but having more options to compare would be better.
+
 \section{Feature selection}
+Feature selection is absolutely crucial 
+
+
+\subsection{Variable vs feature}
+In time series learning, the terms variable and feature are often used interchangeably, which can cause confusion. 
+Crucially, variables are a type of feature. 
+
+\subsection{Variability}
+In a blackbox setting like of this project, it's necessary 
