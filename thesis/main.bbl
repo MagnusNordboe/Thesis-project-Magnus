@@ -1,0 +1,257 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Microservices-demo-sockshop}{article}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Weaveworks},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Sock Shop}
+    \verb{url}
+    \verb https://github.com/microservices-demo/microservices-demo
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{Reference1}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HCJ}{%
+         family={Hawthorn},
+         familyi={H\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WKP}{%
+         family={Weber},
+         familyi={W\bibinitperiod},
+         given={K.\bibnamedelima P.},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SRE}{%
+         family={Scholten},
+         familyi={S\bibinitperiod},
+         given={R.\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HCJWKPSRE1}
+    \strng{fullhash}{HCJWKPSRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We have developed an enhanced Littrow configuration extended cavity diode
+  laser (ECDL) that can be tuned without changing the direction of the output
+  beam. The output of a conventional Littrow ECDL is reflected from a plane
+  mirror fixed parallel to the tuning diffraction grating. Using a free-space
+  Michelson wavemeter to measure the laser wavelength, we can tune the laser
+  over a range greater than 10 nm without any alteration of alignment.%
+    }
+    \field{number}{12}
+    \field{pages}{4477\bibrangedash 4479}
+    \field{title}{Littrow Configuration Tunable External Cavity Diode Laser
+  with Fixed Direction Output Beam}
+    \verb{url}
+    \verb http://link.aip.org/link/?RSI/72/4477/1
+    \endverb
+    \field{volume}{72}
+    \field{journaltitle}{Review of Scientific Instruments}
+    \field{month}{12}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Reference2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WCE}{%
+         family={Wieman},
+         familyi={W\bibinitperiod},
+         given={Carl\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Hollberg},
+         familyi={H\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Diode Laser}
+    \strng{namehash}{WCEHL1}
+    \strng{fullhash}{WCEHL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present a review of the use of diode lasers in atomic physics with an
+  extensive list of references. We discuss the relevant characteristics of
+  diode lasers and explain how to purchase and use them. We also review the
+  various techniques that have been used to control and narrow the spectral
+  outputs of diode lasers. Finally we present a number of examples illustrating
+  the use of diode lasers in atomic physics experiments. Review of Scientific
+  Instruments is copyrighted by The American Institute of Physics.%
+    }
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 20}
+    \field{title}{Using Diode Lasers for Atomic Physics}
+    \verb{url}
+    \verb http://link.aip.org/link/?RSI/62/1/1
+    \endverb
+    \field{volume}{62}
+    \field{journaltitle}{Review of Scientific Instruments}
+    \field{month}{01}
+    \field{year}{1991}
+  \endentry
+
+  \entry{Reference3}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AAS}{%
+         family={Arnold},
+         familyi={A\bibinitperiod},
+         given={A.\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WJS}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BMG}{%
+         family={Boshier},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AASWJSBMG+1}
+    \strng{fullhash}{AASWJSBMGSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Operating a laser diode in an extended cavity which provides
+  frequency-selective feedback is a very effective method of reducing the
+  laser's linewidth and improving its tunability. We have developed an
+  extremely simple laser of this type, built from inexpensive commercial
+  components with only a few minor modifications. A 780~nm laser built to this
+  design has an output power of 80~mW, a linewidth of 350~kHz, and it has been
+  continuously locked to a Doppler-free rubidium transition for several days.%
+    }
+    \field{number}{3}
+    \field{pages}{1236\bibrangedash 1239}
+    \field{title}{A Simple Extended-Cavity Diode Laser}
+    \verb{url}
+    \verb http://link.aip.org/link/?RSI/69/1236/1
+    \endverb
+    \field{volume}{69}
+    \field{journaltitle}{Review of Scientific Instruments}
+    \field{month}{03}
+    \field{year}{1998}
+  \endentry
+
+  \entry{ITS}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={ITS},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    An application in which the user interface, business rules, and data access
+  code is combined into a single executable program and deployed on one
+  platform. A monolithic application operates independently from other
+  applications, performing every step of the process needed to complete the
+  entire business function. It does not share any logic or data across system
+  or organizational boundaries. Databases are designed for access by single
+  application systems within a single agency, not for access by multiple
+  application systems in multiple agencies simultaneously.%
+    }
+    \field{title}{{Glossary}}
+    \verb{url}
+    \verb https://web.archive.org/web/20070902151937/http://www.its.state.nc.us
+    \verb /Information/Glossary/Glossm.asp
+    \endverb
+    \field{year}{2001}
+    \field{urlday}{27}
+    \field{urlmonth}{03}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Gouigoux2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GJP}{%
+         family={Gouigoux},
+         familyi={G\bibinitperiod},
+         given={Jean\bibnamedelima Philippe},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tamzalit},
+         familyi={T\bibinitperiod},
+         given={Dalila},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Microservices,Migration,Web Oriented Architecture}
+    \strng{namehash}{GJPTD1}
+    \strng{fullhash}{GJPTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    MGDIS SA is a software editing company that underwent a major strategic and
+  technical change during the past three years, investing 17 300 man. Days
+  rewriting its core business software from monolithic architecture to a Web
+  Oriented Architecture using microservices. The paper presents technical
+  lessons learned during and from this migration by addressing three crucial
+  questions for a successful context-adapted migration towards a Web Oriented
+  Architecture: how to determine (i) the most suitable granularity of
+  micro-services, (ii) the most appropriate deployment and (iii) the most
+  efficient orchestration?%
+    }
+    \verb{doi}
+    \verb 10.1109/ICSAW.2017.35
+    \endverb
+    \field{isbn}{9781509047932}
+    \field{pages}{62\bibrangedash 65}
+    \field{title}{{From monolith to microservices: Lessons learned on an
+  industrial migration to a web oriented architecture}}
+    \field{journaltitle}{Proceedings - 2017 IEEE International Conference on
+  Software Architecture Workshops, ICSAW 2017: Side Track Proceedings}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
