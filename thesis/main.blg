@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2022)
+This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: biblatex.bst
@@ -25,49 +25,47 @@ Database file #1: main-blx.bib
 Database file #2: example.bib
 Database file #3: sources.bib
 Database file #4: Masters-Magnus-thesis.bib
-Warning--I didn't find a database entry for "Scikit-learn-imputation"
-Biblatex version: 3.18
+Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 7 entries,
+You've used 5 entries,
             6399 wiz_defined-function locations,
-            1264 strings with 13025 characters,
-and the built_in function-call counts, 49182 in all, are:
-= -- 3813
-> -- 1029
-< -- 207
-+ -- 1447
-- -- 521
-* -- 3493
-:= -- 5627
+            1241 strings with 11200 characters,
+and the built_in function-call counts, 24044 in all, are:
+= -- 1493
+> -- 969
+< -- 152
++ -- 919
+- -- 607
+* -- 1319
+:= -- 2660
 add.period$ -- 0
-call.type$ -- 7
-change.case$ -- 92
-chr.to.int$ -- 79
-cite$ -- 12
-duplicate$ -- 4488
-empty$ -- 4345
-format.name$ -- 391
-if$ -- 9930
+call.type$ -- 5
+change.case$ -- 77
+chr.to.int$ -- 90
+cite$ -- 8
+duplicate$ -- 2170
+empty$ -- 2114
+format.name$ -- 193
+if$ -- 4757
 int.to.chr$ -- 0
-int.to.str$ -- 13
+int.to.str$ -- 9
 missing$ -- 0
-newline$ -- 222
-num.names$ -- 280
-pop$ -- 2137
+newline$ -- 123
+num.names$ -- 204
+pop$ -- 1366
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 92
 quote$ -- 0
-skip$ -- 1230
+skip$ -- 866
 stack$ -- 0
-substring$ -- 7502
-swap$ -- 936
-text.length$ -- 180
+substring$ -- 2621
+swap$ -- 545
+text.length$ -- 117
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 226
+type$ -- 158
 warning$ -- 0
-while$ -- 627
+while$ -- 289
 width$ -- 0
-write$ -- 216
-(There was 1 warning)
+write$ -- 119
