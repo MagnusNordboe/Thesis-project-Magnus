@@ -30,12 +30,23 @@ There are two main ways to deal with this problem:
 In sklearn/sktime, exactly two classifiers are able to handle series of series length: A KNN classifier and an SVC (Support vector classifier). They will be used for comparison, but having more options to compare would be better.
 
 \section{Feature selection}
-Feature selection is absolutely crucial 
+The raw data collected from the Prometheus service has 579 features. Most of this data is useless noise. I have identified the following main factors that make data into noise:
 
+\begin{itemize}
+    \item \textbf{Variables with zero or very low variance between instances.} These are very common because the Prometheus instrumentation of the test system are generic, i.e. they simply expose as much information about the system as they can. Many parts of the system go fully or relatively untouched during the (quite superficial) stress tests.
+    \item \textbf{Subsets of data with large amounts of NaNs.} These datasets can still be useful if the non-NaN data points contain useful information. The problem is that the missing data points will have to be imputed, potentially diluting the usefulness of the data. 
+    \item \textbf{Variables whose changes are unrelated to the stress testing.} These include counters that track how long certain threads have been running, new instances of unrelated subprocesses, etc. 
+\end{itemize}
+
+Noisy data will lead to poor performance of the machine learning model because the noise will mask the real underlying function it tries to learn. To get good predictions out, the main task is going to be separating noise from information. 
+
+\begin{figure} 
+\centering 
+\includegraphics{Figures/''}
+\decoRule 
+\caption{''}
+\end{figure}
 
 \subsection{Variable vs feature}
 In time series learning, the terms variable and feature are often used interchangeably, which can cause confusion. 
 Crucially, variables are a type of feature. 
-
-\subsection{Variability}
-In a blackbox setting like of this project, it's necessary 
