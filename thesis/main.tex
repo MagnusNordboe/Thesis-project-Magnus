@@ -33,6 +33,7 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 %toctotoc, % Uncomment to add the main table of contents to the table of contents
 %parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
+twocolumn,
 headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 %consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
@@ -40,10 +41,14 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
+\usepackage{listings}
 \usepackage{mathpazo} % Use the Palatino font by default
+\usepackage{geometry}
+\setlength{\columnsep}{7mm}
 
 \usepackage[backend=bibtex,style=ieee,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage{wrapfig}
+\usepackage{multicol}
 
 \addbibresource{example.bib} % The filename of the bibliography
 \addbibresource{sources.bib}
@@ -51,14 +56,45 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1
+}
+
+\lstset{style=mystyle}
+
+
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
 
 \geometry{
 	paper=a4paper, % Change to letterpaper for US letter
-	inner=2.5cm, % Inner margin
-	outer=3.8cm, % Outer margin
+	%inner=1.7cm, % Inner margin
+	%outer=1.7cm, % Outer margin
+	left=1.7cm,
+	right=1.7cm,
 	bindingoffset=.5cm, % Binding offset
 	top=1.5cm, % Top margin
 	bottom=1.5cm, % Bottom margin
@@ -200,17 +236,28 @@ The acknowledgments and the people to thank go here, don't forget to include you
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
+% \begin{multicols*}{1}
+% \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+	
+% 	\textbf{MTS} & \textbf{M}ultivariate \textbf{T}ime \textbf{S}eries\\
+	
+	
+% 	\textbf{DTW} & \textbf{D}ynamic \textbf{T}ime \textbf{W}arping
+	
+	
+	
+% \end{abbreviations}
+% \end{multicols*}
 
-\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
-
-\textbf{MTS} & \textbf{M}ultivariate \textbf{T}ime \textbf{S}eries\\
-
-
-\textbf{DTW} & \textbf{D}ynamic \textbf{T}ime \textbf{W}arping
-
-
-
-\end{abbreviations}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ll}
+	  AI & Artificial Intelligence \\
+	  ML & Machine Learning \\
+	\end{tabular}
+	\caption{Abbreviations}
+	\label{table:abbreviations}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 %	SYMBOLS
@@ -237,6 +284,7 @@ The acknowledgments and the people to thank go here, don't forget to include you
 
 \include{Chapters/Chapter1}
 \include{Chapters/Chapter2} 
+\include{Chapters/Methodology}
 \include{Chapters/Chapter3}
 %\include{Chapters/Chapter4} 
 %\include{Chapters/Chapter5} 

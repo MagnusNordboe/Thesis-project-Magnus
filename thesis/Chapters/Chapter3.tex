@@ -1,4 +1,4 @@
-\chapter{Methodology}
+\chapter{Data processing}
 
 \section{Imputation}
 
@@ -40,11 +40,30 @@ The raw data collected from the Prometheus service has 579 features. Most of thi
 
 Noisy data will lead to poor performance of the machine learning model because the noise will mask the real underlying function it tries to learn. To get good predictions out, the main task is going to be separating noise from information. 
 
-\begin{figure} 
+\subsection{Low variance or monotonic features}
+The variance numbers shown in figure \ref*{variance} are scaled. This means the variance value for each variable is proportional to the mean value of that variable.
+Of the 579 variables in the dataset, 110 of them have a variance of exactly 0. This means they are entirely unaffected by both time and stress testing. Such variables are entirely useless and simply dilute the information in the data. 
+Another issue is monotonically increasing variables. In this dataset, these variables tend to be some form of counter. Simply throwing them in with the regular variables would add a lot of noise, as the algorithms would not know to treat them differently.
+\textbf{Monotonically increasing variables can still be very useful in machine learning if treated properly, but it is out of the scope of this project. This is because there are two main ways of fitting such variables into  machine learning model like the ones used in this project: One is differencing, where the changes in value instead of the absolute number is taken into account. }
+The more interesting problems arise from variables with low variance. 
+
+\begin{lstlisting}[language=Python]
+def select_by_variance(df:pd.DataFrame, amount:int):
+    variances:pd.Series = calculate_variance(df)
+    selection = variances.iloc[0:amount]
+    return selection.index
+best_features = select_by_variance(trimmed_df, 5)
+X = scaled[best_features]
+best_features
+\end{lstlisting}
+
+
+
+\begin{figure}[ht]
 \centering 
-\includegraphics{Figures/''}
-\decoRule 
-\caption{''}
+\includegraphics[width=\columnwidth]{Figures/Graphs/Total_variance}
+\caption{Scaled variance of all the variables}
+\label{variance}
 \end{figure}
 
 \subsection{Variable vs feature}

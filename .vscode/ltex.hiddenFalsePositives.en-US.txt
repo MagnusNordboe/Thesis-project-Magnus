@@ -1,0 +1,1 @@
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QBut instead of simply being supplied a bunch of information about an existing microservices system,\\E$"}

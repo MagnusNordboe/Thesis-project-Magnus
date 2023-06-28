@@ -97,6 +97,28 @@
     \field{year}{2017}
   \endentry
 
+  \entry{DgtlInfra}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ID}{%
+         family={Infra},
+         familyi={I\bibinitperiod},
+         given={Dgtl},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ID1}
+    \strng{fullhash}{ID1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Top 10 Cloud Service Providers Globally in 2023 - Dgtl Infra}}
+    \verb{url}
+    \verb https://dgtlinfra.com/top-10-cloud-service-providers-2022/
+    \endverb
+    \field{urlday}{28}
+    \field{urlmonth}{06}
+    \field{urlyear}{2023}
+  \endentry
+
   \entry{Scikit-learn-imputation}{misc}{}
     \name{author}{1}{}{%
       {{hash=Sl}{%

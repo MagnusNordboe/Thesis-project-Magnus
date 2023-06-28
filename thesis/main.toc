@@ -1,0 +1,36 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}%
+\contentsline {chapter}{Abstract}{vii}{section*.2}%
+\contentsline {chapter}{Acknowledgements}{ix}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}%
+\contentsline {section}{\numberline {1.1}Keywords}{1}{section.10}%
+\contentsline {section}{\numberline {1.2}Abstract}{1}{section.11}%
+\contentsline {section}{\numberline {1.3}Research area and questions}{1}{section.12}%
+\contentsline {section}{\numberline {1.4}Approach}{1}{section.13}%
+\contentsline {section}{\numberline {1.5}List of important terms}{2}{section.14}%
+\contentsline {section}{\numberline {1.6}Thesis Features and Conventions}{2}{section.15}%
+\contentsline {subsection}{\numberline {1.6.1}Printing Format}{2}{subsection.16}%
+\contentsline {subsection}{\numberline {1.6.2}Tables}{3}{subsection.17}%
+\contentsline {subsection}{\numberline {1.6.3}Figures}{3}{subsection.19}%
+\contentsline {subsection}{\numberline {1.6.4}Typesetting mathematics}{4}{subsection.21}%
+\contentsline {section}{\numberline {1.7}Sectioning and Subsectioning}{4}{section.23}%
+\contentsline {section}{\numberline {1.8}In Closing}{4}{section.24}%
+\contentsline {chapter}{\numberline {2}Background}{5}{chapter.25}%
+\contentsline {section}{\numberline {2.1}Microservices}{5}{section.26}%
+\contentsline {subsection}{\numberline {2.1.1}The monolith}{5}{subsection.27}%
+\contentsline {subsection}{\numberline {2.1.2}The problems with monolithic software}{5}{subsection.28}%
+\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.29}%
+\contentsline {section}{\numberline {3.1}Background}{7}{section.30}%
+\contentsline {section}{\numberline {3.2}System selection and creation}{7}{section.31}%
+\contentsline {subsection}{\numberline {3.2.1}Cloud solutions}{7}{subsection.32}%
+\contentsline {subsection}{\numberline {3.2.2}Local machine}{8}{subsection.34}%
+\contentsline {chapter}{\numberline {4}Data processing}{9}{chapter.35}%
+\contentsline {section}{\numberline {4.1}Imputation}{9}{section.36}%
+\contentsline {subsection}{\numberline {4.1.1}Background}{9}{subsection.37}%
+\contentsline {section}{\numberline {4.2}Series length}{9}{section.38}%
+\contentsline {section}{\numberline {4.3}Feature selection}{10}{section.39}%
+\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{10}{subsection.40}%
+\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{10}{subsection.50}%
+\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{11}{appendix.51}%
+\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{11}{section.52}%
+\contentsline {chapter}{Bibliography}{13}{appendix*.53}%

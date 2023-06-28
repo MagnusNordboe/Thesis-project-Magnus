@@ -1,0 +1,36 @@
+\chapter{Methodology}
+
+In this chapter, I will describe the decision-making process behind the system used for generating and collecting test data. I will then describe the system itself in more detail.
+
+\section{Background}
+The project was initially started by Sintef in collaboration with a company that runs a microservices hosting platform. This company had requested Sintef to do research on their platform, to look at ways to anticipate issues like version conflicts and performance drops. \\
+Another student and I were brought onto the project as master thesis project tie-ins. The other student was to focus on technical lag, and I was to focus on performance. However, soon after we had been brought onto the project and gotten the go-ahead from the faculty and everything stamped and sealed, the company that hired Sintef simply stopped responding. No e-mails, no meetings, no phone calls. So we were left stranded, and would have to come up with something for ourselves. \\
+We decided to go ahead with the initial goals of the project: To research a microservice system and try to make predictors that could see performance and compatibility issues ahead of time. 
+But instead of simply being supplied information about an existing microservice system, we had to create our own systems and our own tests. 
+
+\section{System selection and creation}
+Building a microservice system can be a very complex affair, and subject to a master thesis project on its own. So making one from scratch would be far outside the scope of the project. As such, a list of requirements for the project were devised:
+
+\begin{itemize}
+    \item The system would need to be relatively quick and easy to get up and running.
+    \item It must be possible to generate faults in the system.
+    \item The system must be able to collect and provide data about itself and its performance. 
+    \item It must be feasible to run and stress test this system on a student's budget.
+\end{itemize}
+
+\subsection{Cloud solutions}
+Cloud computing is in several ways a natural fit for this project. Microservices as a concept is formulated with cloud computing in mind. Cloud service providers tend to provide some microservice-specific services. 
+The three biggest players in cloud services are Amazon, Microsoft and Google \cite*{DgtlInfra}. They all offer some level of free access, and student deals can be negotiated for more credits. They all integrate Kubernetes while adding their own ease-of-use features, so launching some premade system on them should be feasible. \\
+However, they come with some issues. The biggest issue is cost. In the course of my work, I was bound to do quite a lot of stress testing. This would be bound to burn through a ton of credits. Another issue would be dealing with their own built-in load balancing and DDoS protection. Getting accurate results from stress testing could turn out expensive as well as unreliable.\\
+I set up free accounts for both Google Kubernetes Engine (GKE), Google's distributed cloud service, and Amazon Web Services (AWS), and reached out to apply for a student grant. However, response was slow, and it looked unlikely that I would be granted the necessary amount of credits.
+
+\begin{figure} 
+\centering 
+\includegraphics[width=\columnwidth]{Figures/Graphs/Cloud_market_share.jpeg}
+\caption{Worldwide market share of leading cloud infrastructure provicers in Q1 2023. Source: Statista}
+\label{Cloud market share}
+\end{figure}
+
+\subsection{Local machine}
+With the prospect of using cloud infrastructure seeming slim, we turned to doing what we could with the resources available to us. We both possessed personal desktop computers with decent processing power. 
+Running on a local machine would give much better control over the system, and the project would not be beholden to the whims of a cloud service provider. 
