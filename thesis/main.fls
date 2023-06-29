@@ -1124,9 +1124,9 @@ INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT ./main.toc
 INPUT main.toc
 INPUT main.toc
-OUTPUT main.toc
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+OUTPUT main.toc
 INPUT ./main.lof
 INPUT main.lof
 INPUT main.lof

@@ -39,10 +39,17 @@ It does come with some drawbacks. Microservices are a cloud focused architecture
 There are a variety of tools that help launch containers for microservices locally. Most of them are a subset or extension of Docker. 
 
 \subsection{Candidates}
-\subsection*{DeathStarBench}
+\subsubsection{DeathStarBench}
 DeathStarBench is an open-source benchmark suite developed by Cornell University for research purposes. 
 It features a total of five complete services: A social network, a media service, hotel reservation, an e-commerce site, a banking system, and a drone coordination system for drone swarms. If chosen as the system for this project, we would have focused on one of the first three services. They are in a more complete state than the rest according to the project's GitHub page. 
-DeathStarBench makes a compelling choice as it seems to be quite complete and sophisticated, as well as being made specifically for testing. \\
+DeathStarBench makes a compelling choice as it seems to be quite complete and sophisticated, as well as being made specifically for testing. \cite*{Gan2019} \\
 However, there were two main issues with it.
-\subsection*{System requirements and complexity}
-The complex nature of the project made it unclear if we would be able to run it on our available hardware. There were also doubts as to how simple it would be to get up and running in the first place. We would run the risk of spending a lot of time 
+\begin{itemize}
+    \item System requirements and complexity
+\end{itemize}
+The complex nature of the project made it unclear if we would be able to run it on our available hardware. There were also doubts as to how simple it would be to get up and running in the first place. We would run the risk of spending a lot of time getting it up and running, only to find that it doesn't have enough resources to run properly.
+\begin{itemize}
+    \item Distributed tracing
+\end{itemize}
+DeathStarBench uses Jaeger to provide distributed tracing of the system. This provides detailed information about the behavior of the system during operation. Higher quality data lets ML models train more efficiently and provide more accurate and detailed results. 
+Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources. 

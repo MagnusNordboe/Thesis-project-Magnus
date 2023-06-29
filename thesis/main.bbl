@@ -119,6 +119,177 @@
     \field{urlyear}{2023}
   \endentry
 
+  \entry{Gan2019}{article}{}
+    \name{author}{24}{}{%
+      {{hash=GY}{%
+         family={Gan},
+         familyi={G\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yanqi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Dailun},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shetty},
+         familyi={S\bibinitperiod},
+         given={Ankitha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Rathi},
+         familyi={R\bibinitperiod},
+         given={Priyal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Katarki},
+         familyi={K\bibinitperiod},
+         given={Nayan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bruno},
+         familyi={B\bibinitperiod},
+         given={Ariana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Ritchken},
+         familyi={R\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JB}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={Brendon},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Kelvin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pancholi},
+         familyi={P\bibinitperiod},
+         given={Meghna},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={Brett},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Colen},
+         familyi={C\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={Fukang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Leung},
+         familyi={L\bibinitperiod},
+         given={Catherine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Siyuan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zaruvinsky},
+         familyi={Z\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Espinosa},
+         familyi={E\bibinitperiod},
+         given={Mateo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Rick},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhongling},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Padilla},
+         familyi={P\bibinitperiod},
+         given={Jake},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Delimitrou},
+         familyi={D\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{QoS,acceleration,cloud computing,cluster management,datacenters,fpga,microservices,serverless}
+    \strng{namehash}{GYZYCD+1}
+    \strng{fullhash}{GYZYCDSARPKNBAHJRBJBHKPMHYCBCCWFLCWSZLEMLRLZPJDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Cloud services have recently started undergoing a major shift from monolithic applications, to graphs of hundreds of loosely-coupled microservices. Microservices fundamentally change a lot of assumptions current cloud systems are designed with, and present both opportunities and challenges when optimizing for quality of service (QoS) and utilization. In this paper we explore the implications microservices have across the cloud system stack. We first present Death- StarBench, a novel, open-source benchmark suite built with microservices that is representative of large end-to-end services, modular and extensible. DeathStarBench includes a social network, a media service, an e-commerce site, a banking system, and IoT applications for coordination control of UAV swarms. We then use DeathStarBench to study the architectural characteristics of microservices, their implications in networking and operating systems, their challenges with respect to cluster management, and their trade-offs in terms of application design and programming frameworks. Finally, we explore the tail at scale effects of microservices in real deployments with hundreds of users, and highlight the increased pressure they put on performance predictability.%
+    }
+    \verb{doi}
+    \verb 10.1145/3297858.3304013
+    \endverb
+    \field{isbn}{9781450362405}
+    \field{pages}{3\bibrangedash 18}
+    \field{title}{{An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud {\&} Edge Systems}}
+    \verb{file}
+    \verb :home/magnus/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloa
+    \verb ded/Gan et al. - 2019 - An Open-Source Benchmark Suite for Microservi
+    \verb ces and Their Hardware-Software Implications for Cloud {\&} Edge Syst
+    \verb ems.pdf:pdf
+    \endverb
+    \field{journaltitle}{International Conference on Architectural Support for Programming Languages and Operating Systems - ASPLOS}
+    \field{year}{2019}
+  \endentry
+
   \entry{Scikit-learn-imputation}{misc}{}
     \name{author}{1}{}{%
       {{hash=Sl}{%
