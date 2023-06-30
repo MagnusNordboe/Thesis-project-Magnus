@@ -8,32 +8,23 @@
 \contentsline {section}{\numberline {1.3}Research area and questions}{1}{section.12}%
 \contentsline {section}{\numberline {1.4}Approach}{1}{section.13}%
 \contentsline {section}{\numberline {1.5}List of important terms}{2}{section.14}%
-\contentsline {section}{\numberline {1.6}Thesis Features and Conventions}{2}{section.15}%
-\contentsline {subsection}{\numberline {1.6.1}Printing Format}{2}{subsection.16}%
-\contentsline {subsection}{\numberline {1.6.2}Tables}{3}{subsection.17}%
-\contentsline {subsection}{\numberline {1.6.3}Figures}{3}{subsection.19}%
-\contentsline {subsection}{\numberline {1.6.4}Typesetting mathematics}{4}{subsection.21}%
-\contentsline {section}{\numberline {1.7}Sectioning and Subsectioning}{4}{section.23}%
-\contentsline {section}{\numberline {1.8}In Closing}{4}{section.24}%
-\contentsline {chapter}{\numberline {2}Background}{5}{chapter.25}%
-\contentsline {section}{\numberline {2.1}Microservices}{5}{section.26}%
-\contentsline {subsection}{\numberline {2.1.1}The monolith}{5}{subsection.27}%
-\contentsline {subsection}{\numberline {2.1.2}The problems with monolithic software}{5}{subsection.28}%
-\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.29}%
-\contentsline {section}{\numberline {3.1}Background}{7}{section.30}%
-\contentsline {section}{\numberline {3.2}System selection and creation}{7}{section.31}%
-\contentsline {subsection}{\numberline {3.2.1}Cloud solutions}{7}{subsection.32}%
-\contentsline {subsection}{\numberline {3.2.2}Local machine}{8}{subsection.34}%
-\contentsline {subsection}{\numberline {3.2.3}Candidates}{8}{subsection.35}%
-\contentsline {subsubsection}{DeathStarBench}{8}{section*.36}%
-\contentsline {subsubsection}{Sockshop}{9}{section*.38}%
-\contentsline {chapter}{\numberline {4}Data processing}{11}{chapter.40}%
-\contentsline {section}{\numberline {4.1}Imputation}{11}{section.41}%
-\contentsline {subsection}{\numberline {4.1.1}Background}{11}{subsection.42}%
-\contentsline {section}{\numberline {4.2}Series length}{11}{section.43}%
-\contentsline {section}{\numberline {4.3}Feature selection}{12}{section.44}%
-\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{12}{subsection.45}%
-\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{12}{subsection.55}%
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{13}{appendix.56}%
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{13}{section.57}%
-\contentsline {chapter}{Bibliography}{15}{appendix*.58}%
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.15}%
+\contentsline {section}{\numberline {2.1}Microservices}{3}{section.16}%
+\contentsline {subsection}{\numberline {2.1.1}The monolith}{3}{subsection.17}%
+\contentsline {subsection}{\numberline {2.1.2}The problems with monolithic software}{3}{subsection.18}%
+\contentsline {chapter}{\numberline {3}Methodology}{5}{chapter.19}%
+\contentsline {section}{\numberline {3.1}Background}{5}{section.20}%
+\contentsline {section}{\numberline {3.2}System selection and creation}{5}{section.21}%
+\contentsline {subsection}{\numberline {3.2.1}Cloud solutions}{5}{subsection.22}%
+\contentsline {subsection}{\numberline {3.2.2}Local machine}{6}{subsection.24}%
+\contentsline {subsection}{\numberline {3.2.3}Candidates}{6}{subsection.25}%
+\contentsline {subsubsection}{DeathStarBench}{6}{section*.26}%
+\contentsline {subsubsection}{Sockshop}{7}{section*.28}%
+\contentsline {chapter}{\numberline {4}Data processing}{9}{chapter.30}%
+\contentsline {section}{\numberline {4.1}Imputation}{9}{section.31}%
+\contentsline {subsection}{\numberline {4.1.1}Background}{9}{subsection.32}%
+\contentsline {section}{\numberline {4.2}Series length}{9}{section.33}%
+\contentsline {section}{\numberline {4.3}Feature selection}{10}{section.34}%
+\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{10}{subsection.35}%
+\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{11}{subsection.45}%
+\contentsline {chapter}{Bibliography}{13}{chapter*.46}%
