@@ -52,4 +52,18 @@ The complex nature of the project made it unclear if we would be able to run it 
     \item Distributed tracing
 \end{itemize}
 DeathStarBench uses Jaeger to provide distributed tracing of the system. This provides detailed information about the behavior of the system during operation. Higher quality data lets ML models train more efficiently and provide more accurate and detailed results. 
-Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources. 
+Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources. \cite*{Bogatinovski}, \cite*{Nedelkoski2019}, \cite*{Zhou2021a}
+
+\begin{figure} 
+\centering 
+\includegraphics[width=\columnwidth]{Figures/Charts/media_microservices_architecture.png}
+\caption{The workload architecture for DSB's media service}
+\label{DSB-media}
+\end{figure}
+
+
+\subsubsection{Sockshop}
+Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies". \cite*{Weaveworks}
+It is an older, smaller project, and parts of it were used to build the larger DeathStarBench. \cite*{Gan2019}
+The smaller, less complex nature of this project means that it could feasibly run on our available home machines. 
+It is comprised of 14 services running in individual containers
