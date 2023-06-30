@@ -48,18 +48,18 @@ However, there were two main issues with it.
     \item System requirements and complexity
 \end{itemize}
 The complex nature of the project made it unclear if we would be able to run it on our available hardware. There were also doubts as to how simple it would be to get up and running in the first place. We would run the risk of spending a lot of time getting it up and running, only to find that it doesn't have enough resources to run properly.
+\begin{figure}[ht]
+\centering 
+\includegraphics[width=\columnwidth]{Figures/Charts/media_microservices_architecture.png}
+\caption{The workload architecture for DSB's media service}
+\label{DSB-media}
+\end{figure}
 \begin{itemize}
     \item Distributed tracing
 \end{itemize}
 DeathStarBench uses Jaeger to provide distributed tracing of the system. This provides detailed information about the behavior of the system during operation. Higher quality data lets ML models train more efficiently and provide more accurate and detailed results. 
 Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources. \cite*{Bogatinovski}, \cite*{Nedelkoski2019}, \cite*{Zhou2021a}
 
-\begin{figure} 
-\centering 
-\includegraphics[width=\columnwidth]{Figures/Charts/media_microservices_architecture.png}
-\caption{The workload architecture for DSB's media service}
-\label{DSB-media}
-\end{figure}
 
 
 \subsubsection{Sockshop}
@@ -84,5 +84,15 @@ Sockshop comes with some strong benefits:
 Of the strong candidates, this was the one most likely to not run into a hardware bottleneck on our computers. 
 
 \begin{itemize}
-    \item 
+    \item Centralized logging
 \end{itemize}
+Sockshop comes instrumented with Prometheus, and publishes an API endpoint for retrieving metrics from the Prometheus microservice. Centralized logging provides less insight than distributed tracing, but carries less resource overhead and is easier to add to an existing system, since it is less invasive. 
+This provides an angle to give a unique value proposition to the project: A method for learning about and optimizing an already existing system, while minimizing time and effort spent instrumenting the microservice system and training the models. Results would not be as accurate or reliable as more thorough projects using data collected from distributed tracing, but it could provide a "good enough" result for a fraction of the investment.
+
+There are also some major downsides to the Sockshop.
+
+\begin{itemize}
+    \item Poor documentation
+\end{itemize}
+The website for the project \cite*{Weaveworks} has documentation, but it gives few details about the underlying structure of the system. 
+For example, it has Prometheus instrumentation. But it gives no information on which client libraries are installed where. Finding out requires digging through the source code and metrics.

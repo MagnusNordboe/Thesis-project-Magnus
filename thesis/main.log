@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.24)  30 JUN 2023 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.24)  30 JUN 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,43 +1172,44 @@ Package pdftex.def Info: Figures/Graphs/Cloud_market_share.jpeg  used on input l
 (pdftex.def)             Requested size: 233.31271pt x 167.59085pt.
 1: section
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+<Figures/Charts/media_microservices_architecture.png, id=417, 1279.02844pt x 932.73468pt>
+File: Figures/Charts/media_microservices_architecture.png Graphic file (type png)
+<use Figures/Charts/media_microservices_architecture.png>
+Package pdftex.def Info: Figures/Charts/media_microservices_architecture.png  used on input line 53.
+(pdftex.def)             Requested size: 233.31271pt x 170.13371pt.
+
+Underfull \hbox (badness 1527) in paragraph at lines 54--54
+ []\T1/ppl/m/sc/10 Figure 3.2: |\T1/ppl/m/n/10 The work-load 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 \T1/ppl/m/n/10.95 DeathStarBench uses Jaeger to pro-vide
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 54--56
+Underfull \hbox (badness 3646) in paragraph at lines 60--62
 \T1/ppl/m/n/10.95 de-tailed in-for-ma-tion about the be-hav-ior of
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 54--56
+Underfull \hbox (badness 2368) in paragraph at lines 60--62
 \T1/ppl/m/n/10.95 pro-vide more ac-cu-rate and de-tailed re-sults.
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 54--56
+Underfull \hbox (badness 2409) in paragraph at lines 60--62
 \T1/ppl/m/n/10.95 Work-ing with this would put the fo-cus of
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 54--56
+Underfull \hbox (badness 2150) in paragraph at lines 60--62
 \T1/ppl/m/n/10.95 the project work into the realm of mak-ing
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 54--56
+Underfull \hbox (badness 5756) in paragraph at lines 60--62
 \T1/ppl/m/n/10.95 pur-poses, some-thing that is al-ready quite
- []
-
-<Figures/Charts/media_microservices_architecture.png, id=420, 1279.02844pt x 932.73468pt>
-File: Figures/Charts/media_microservices_architecture.png Graphic file (type png)
-<use Figures/Charts/media_microservices_architecture.png>
-Package pdftex.def Info: Figures/Charts/media_microservices_architecture.png  used on input line 59.
-(pdftex.def)             Requested size: 233.31271pt x 170.13371pt.
-
-Underfull \hbox (badness 1527) in paragraph at lines 60--60
- []\T1/ppl/m/sc/10 Figure 3.2: |\T1/ppl/m/n/10 The work-load 
  []
 
 [8 <./Figures/Graphs/Cloud_market_share.jpeg> <./Figures/Charts/media_microservices_architecture.png>]
@@ -1227,9 +1228,52 @@ Underfull \hbox (badness 6188) in paragraph at lines 74--74
  \T1/ppl/m/n/10 us-ing WeaveScope, Weave- 
  []
 
-) [9
 
- <./Figures/Charts/sockshop-scope_trimmed.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 Sockshop comes in-stru-mented with
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 Prometheus, and pub-lishes an API end-point
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 for re-triev-ing met-rics from the Prometheus
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 mi-croser-vice. Cen-tral-ized log-ging pro-vides
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 less re-source over-head and is eas-ier to add
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 propo-si-tion to the project: A method for
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 learn-ing about and op-ti-miz-ing an al-ready
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 ex-ist-ing sys-tem, while min-i-miz-ing time and
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 89--91
+\T1/ppl/m/n/10.95 ef-fort spent in-stru-ment-ing the mi-croser-vice
+ []
+
+) [9 <./Figures/Charts/sockshop-scope_trimmed.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex [10
@@ -1278,7 +1322,7 @@ Underfull \hbox (badness 1014) in paragraph at lines 37--38
 (/home/magnus/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-<Figures/Graphs/Total_variance.png, id=449, 409.7709pt x 299.1978pt>
+<Figures/Graphs/Total_variance.png, id=450, 409.7709pt x 299.1978pt>
 File: Figures/Graphs/Total_variance.png Graphic file (type png)
 <use Figures/Graphs/Total_variance.png>
 Package pdftex.def Info: Figures/Graphs/Total_variance.png  used on input line 64.
@@ -1415,10 +1459,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  96i,21n,93p,1926b,2755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/magnus/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfit1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (33 pages, 647330 bytes).
+Output written on main.pdf (33 pages, 648286 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
+ 566 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
  102 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 
