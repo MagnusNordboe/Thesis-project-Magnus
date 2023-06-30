@@ -63,7 +63,26 @@ Working with this would put the focus of the project work into the realm of maki
 
 
 \subsubsection{Sockshop}
-Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies". \cite*{Weaveworks}
+Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies". \cite*{Weaveworks} It simulates an online sock retailer, complete with users, carts, catalogs etc. 
 It is an older, smaller project, and parts of it were used to build the larger DeathStarBench. \cite*{Gan2019}
 The smaller, less complex nature of this project means that it could feasibly run on our available home machines. 
-It is comprised of 14 services running in individual containers
+It is composed of 14 services running in individual containers. The messaging between them is handled by RabbitMQ, which runs as its own container as one of the 14. 
+
+\begin{figure}[ht] 
+\centering 
+\includegraphics[width=\columnwidth]{Figures/Charts/sockshop-scope_trimmed.png}
+\caption{The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool.}
+\label{Sockshop architecture}
+\end{figure}
+
+Sockshop comes with some strong benefits:
+
+\begin{itemize}
+    \item Forgiving system requirements
+\end{itemize}
+
+Of the strong candidates, this was the one most likely to not run into a hardware bottleneck on our computers. 
+
+\begin{itemize}
+    \item 
+\end{itemize}
