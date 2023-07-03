@@ -10,3 +10,4 @@ DeathStarBench
 Sockshop
 Weaveworks
 WeaveScope
+non-NaN

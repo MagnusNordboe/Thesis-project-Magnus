@@ -15,10 +15,18 @@ The definition has changed over time: According to the ITS back in 2001 \cite{IT
 However, most modern interpretations online refer back to a book from 2003 called \textit{The art of Unix programming}. Usually referred to as "monster monoliths", it marks the beginning of the trend of using the term monolith as a bogeyman of unmaintainable, poorly planned code. 
 This trend has been continued in modern days with software "gurus" and the like when needing something to compare to our lord and savior microservices\cite*{Gouigoux2017}.
 It is therefore important to remember that:
-1: The monolith is not a defined software architecture design paradigm. Rather, it is the default type of application that arises when not taking great effort and intentionality to split the code up in many distinct parts.
-2: The monolith is not some damnable evil to be conquered: On software projects of a less-than-huge scale, very often is quite optimal. It doesn't have to deal with inter-component communication. Keeping everything contained in one code base makes it easy to run and test on local machines, keeps all the code in one place for easy access, and so on. 
-3: The monolith mostly just exists as a concept when talking about microservices. Its purpose is mainly to demonstrate the benefits of microservices in large software.
+\begin{enumerate}
+    \item The monolith is not a defined software architecture design paradigm. Rather, it is the default type of application that arises when not taking great effort and intentionality to split the code up in many distinct parts.
+    \item The monolith is not some damnable evil to be conquered: On software projects of a less-than-huge scale, it is very often quite optimal. It doesn't have to deal with inter-component communication. Keeping everything contained in one code base makes it easy to run and test on local machines, keeps all the code in one place for easy access, and so on. 
+    \item The monolith mostly just exists as a concept when talking about microservices or other ways to break it up. Its purpose is mainly to demonstrate the benefits of code splitting in large software.
+\end{enumerate}
 
 With that out of the way, let's discuss the problems with monolithic software that microservices seek to amend.
 
 \subsection{The problems with monolithic software}
+The core issue that permeates all the main problems with monolithic software is \textbf{entanglement.}
+In this context, it means how complex monolithic software will have too many interconnected, interdependent parts to manage effectively.
+This interdependence will mean that something that is a problem for one small part of the whole, will be a problem for the entire tech stack. \\
+\textbf{Scalability} refers to how easy it is to increase the workload capacity of the software. 
+If the amount of users, data, geographical reach or computation complexity increases, it becomes necessary to increase hardware capabilities. 
+Scaling up monolithic software can be a time-consuming and costly affair, as it usually doesn't allow for only increasing the capacity of the parts of the software that are facing increased load. 
