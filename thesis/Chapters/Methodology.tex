@@ -27,7 +27,7 @@ I set up free accounts for both Google Kubernetes Engine (GKE), Google's distrib
 \begin{figure} 
 \centering 
 \includegraphics[width=\columnwidth]{Figures/Graphs/Cloud_market_share.jpeg}
-\caption{Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista}
+\caption{Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \cite*{Richter}.}
 \label{Cloud market share}
 \end{figure}
 
@@ -42,7 +42,7 @@ There are a variety of tools that help launch containers for microservices local
 \subsubsection{DeathStarBench}
 DeathStarBench is an open-source benchmark suite developed by Cornell University for research purposes. 
 It features a total of five complete services: A social network, a media service, hotel reservation, an e-commerce site, a banking system, and a drone coordination system for drone swarms. If chosen as the system for this project, we would have focused on one of the first three services. They are in a more complete state than the rest according to the project's GitHub page. 
-DeathStarBench makes a compelling choice as it seems to be quite complete and sophisticated, as well as being made specifically for testing. \cite*{Gan2019} \\
+DeathStarBench makes a compelling choice as it seems to be quite complete and sophisticated, as well as being made specifically for testing \cite*{Gan2019}. \\
 However, there were two main issues with it.
 \begin{itemize}
     \item System requirements and complexity
@@ -51,27 +51,27 @@ The complex nature of the project made it unclear if we would be able to run it 
 \begin{figure}[ht]
 \centering 
 \includegraphics[width=\columnwidth]{Figures/Charts/media_microservices_architecture.png}
-\caption{The workload architecture for DSB's media service}
+\caption{The workload architecture for DSB's media service \cite*{Gan2019}.}
 \label{DSB-media}
 \end{figure}
 \begin{itemize}
     \item Distributed tracing
 \end{itemize}
 DeathStarBench uses Jaeger to provide distributed tracing of the system. This provides detailed information about the behavior of the system during operation. Higher quality data lets ML models train more efficiently and provide more accurate and detailed results. 
-Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources. \cite*{Bogatinovski}, \cite*{Nedelkoski2019}, \cite*{Zhou2021a}
+Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources \cite*{Bogatinovski}, \cite*{Nedelkoski2019}, \cite*{Zhou2021a}.
 
 
 
 \subsubsection{Sockshop}
-Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies". \cite*{Weaveworks} It simulates an online sock retailer, complete with users, carts, catalogs etc. 
-It is an older, smaller project, and parts of it were used to build the larger DeathStarBench. \cite*{Gan2019}
+Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies" \cite*{Weaveworks}. It simulates an online sock retailer, complete with users, carts, catalogs etc. 
+It is an older, smaller project, and parts of it were used to build the larger DeathStarBench \cite*{Gan2019}.
 The smaller, less complex nature of this project means that it could feasibly run on our available home machines. 
 It is composed of 14 services running in individual containers. The messaging between them is handled by RabbitMQ, which runs as its own container as one of the 14. 
 
 \begin{figure}[ht] 
 \centering 
 \includegraphics[width=\columnwidth]{Figures/Charts/sockshop-scope_trimmed.png}
-\caption{The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool.}
+\caption{The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \cite*{Weaveworks}}
 \label{Sockshop architecture}
 \end{figure}
 
@@ -86,7 +86,7 @@ Of the strong candidates, this was the one most likely to not run into a hardwar
 \begin{itemize}
     \item Centralized logging
 \end{itemize}
-Sockshop comes instrumented with Prometheus, and publishes an API endpoint for retrieving metrics from the Prometheus microservice. Centralized logging provides less insight than distributed tracing, but carries less resource overhead and is easier to add to an existing system, since it is less invasive. 
+Sockshop comes instrumented with Prometheus, and publishes an API endpoint for retrieving metrics from the Prometheus microservice. Centralized logging provides less insight than distributed tracing, but carries less resource overhead and is easier to add to an existing system.
 This provides an angle to give a unique value proposition to the project: A method for learning about and optimizing an already existing system, while minimizing time and effort spent instrumenting the microservice system and training the models. Results would not be as accurate or reliable as more thorough projects using data collected from distributed tracing, but it could provide a "good enough" result for a fraction of the investment.
 
 There are also some major downsides to the Sockshop.

@@ -97,6 +97,108 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Scalability}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WCB}{%
+         family={Weinstock},
+         familyi={W\bibinitperiod},
+         given={Charles\bibnamedelima B},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GJB}{%
+         family={Goodenough},
+         familyi={G\bibinitperiod},
+         given={John\bibnamedelima B},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCBGJB1}
+    \strng{fullhash}{WCBGJB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{On System Scalability}}
+    \verb{url}
+    \verb http://www.sei.cmu.edu/publications/pubweb.html
+    \endverb
+    \verb{file}
+    \verb :home/magnus/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloa
+    \verb ded/Weinstock, Goodenough - 2006 - On System Scalability.pdf:pdf
+    \endverb
+    \field{journaltitle}{U.S. Ministry of defence}
+    \field{year}{2006}
+  \endentry
+
+  \entry{USAToday}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{USA Today}
+    \field{title}{{USATODAY.com - Comair to replace old system that failed}}
+    \verb{url}
+    \verb https://web.archive.org/web/20210126095521/https://usatoday30.usatoda
+    \verb y.com/money/biztravel/2004-12-28-comair-usat{\_}x.htm
+    \endverb
+    \field{year}{2004}
+    \field{urlday}{04}
+    \field{urlmonth}{07}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Fowler2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Microservices}}
+    \verb{url}
+    \verb https://martinfowler.com/articles/microservices.html
+    \endverb
+    \field{year}{2014}
+    \field{urlday}{31}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Curtis}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CB}{%
+         family={Curtis},
+         familyi={C\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{cyber resilience,measurement,software resilience,standards}
+    \strng{namehash}{CB1}
+    \strng{fullhash}{CB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{How Do You Measure Software Resilience?}}
+    \verb{url}
+    \verb www.it-cisq.org
+    \endverb
+    \verb{file}
+    \verb ::
+    \endverb
+  \endentry
+
   \entry{DgtlInfra}{misc}{}
     \name{author}{1}{}{%
       {{hash=ID}{%
@@ -117,6 +219,28 @@
     \field{urlday}{28}
     \field{urlmonth}{06}
     \field{urlyear}{2023}
+  \endentry
+
+  \entry{Richter}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RF}{%
+         family={Richter},
+         familyi={R\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RF1}
+    \strng{fullhash}{RF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Statista}
+    \field{title}{{Cloud providers market share}}
+    \verb{url}
+    \verb https://www.statista.com/chart/18819/worldwide-market-share-of-leadin
+    \verb g-cloud-infrastructure-service-providers/
+    \endverb
+    \field{year}{2023}
   \endentry
 
   \entry{Gan2019}{article}{}

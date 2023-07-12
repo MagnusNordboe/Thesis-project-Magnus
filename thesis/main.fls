@@ -76,8 +76,6 @@ INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/book.cls
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/book.cls
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/book.cls
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/book.cls
-INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/book.cls
-INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/book.cls
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/bk11.clo
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/bk11.clo
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/bk11.clo
@@ -1157,8 +1155,6 @@ INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplbi8t.vf
-INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1166,6 +1162,8 @@ INPUT /home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplro8t.vf
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplro8r.tfm
+INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplbi8t.vf
+INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT ./Chapters/Chapter2.tex
 INPUT ./Chapters/Chapter2.tex
@@ -1180,6 +1178,11 @@ INPUT Chapters/Chapter2.tex
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /home/magnus/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT ./Figures/scaling.png
+INPUT ./Figures/scaling.png
+INPUT Figures/scaling.png
+INPUT ./Figures/scaling.png
+INPUT ./Figures/scaling.png
 INPUT ./Chapters/Methodology.tex
 INPUT ./Chapters/Methodology.tex
 INPUT ./Chapters/Methodology.tex

@@ -33,7 +33,6 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 %toctotoc, % Uncomment to add the main table of contents to the table of contents
 %parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
-twocolumn,
 headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 %consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
@@ -125,7 +124,6 @@ headsepline, % Uncomment to get a line under the header
 }
 
 \begin{document}
-\begin{onecolumn}
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 \hyphenpenalty=3000
 \tolerance=1000
@@ -278,8 +276,6 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 \mainmatter % Begin numeric (1,2,3...) page numbering
 
 \pagestyle{thesis} % Return the page headers back to the "thesis" style
-\end{onecolumn}
-\twocolumn
 % Include the chapters of the thesis as separate files from the Chapters folder
 % Uncomment the lines as you write the chapters
 

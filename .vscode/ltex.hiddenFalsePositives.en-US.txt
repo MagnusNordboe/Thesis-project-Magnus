@@ -1,1 +1,3 @@
 {"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QBut instead of simply being supplied a bunch of information about an existing microservices system,\\E$"}
+{"rule":"ADVERB_WORD_ORDER","sentence":"^\\QThis means: build often, test often, merge often.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QIt can be circumvented by try/catch statements and other error handling methods, but an entangled system is extremely difficult to make fault tolerant.\\E$"}
