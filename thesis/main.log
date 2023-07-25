@@ -884,4 +884,243 @@ Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 126.
 Package biblatex Info: Reference segment=0 on input line 126.
-Package hyperref In
+Package hyperref Info: Link coloring ON on input line 126.
+ (./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+
+1: section
+[1
+
+
+
+{/home/magnus/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2
+
+]
+--------------------
+ Declaration of Authorship
+--------------------
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 184.
+(/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+1: section
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 194.
+(/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 194.
+ (/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 194.
+ (/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 194.
+ (/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 194.
+ (/home/magnus/texlive/2023/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+) [3] [4
+
+] [5] [6
+
+]
+--------------------
+ Abstract
+--------------------
+1: section
+[7] [8
+
+]
+--------------------
+ Acknowledgements
+--------------------
+1: section
+[9] [10
+
+] (./main.toc
+1: section
+[11])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [12] (./main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+
+1: section
+[13
+
+] [14
+
+] (./main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+
+1: section
+[15] [16
+
+]
+--------------------
+ Dedicatory
+--------------------
+1: section
+[17] [18
+
+]
+1: section
+\openout2 = `Chapters/Chapter1.aux'.
+
+(./Chapters/Chapter1.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+1: section
+[1
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 64.
+ (/home/magnus/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 64.
+) [2{/home/magnus/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (./Chapters/Chapter2.tex
+Chapter 2.
+1: section
+[3
+
+
+
+
+]
+<Figures/Graphs/capacity_scaling.pdf, id=371, 722.7pt x 433.62pt>
+File: Figures/Graphs/capacity_scaling.pdf Graphic file (type pdf)
+<use Figures/Graphs/capacity_scaling.pdf>
+Package pdftex.def Info: Figures/Graphs/capacity_scaling.pdf  used on input line 56.
+(pdftex.def)             Requested size: 389.23535pt x 233.54259pt.
+ [4] [5 <./Figures/Graphs/capacity_scaling.pdf>]
+<Figures/containers_vs_VMs.png, id=416, 1229.59375pt x 502.87875pt>
+File: Figures/containers_vs_VMs.png Graphic file (type png)
+<use Figures/containers_vs_VMs.png>
+Package pdftex.def Info: Figures/containers_vs_VMs.png  used on input line 118.
+(pdftex.def)             Requested size: 486.54234pt x 198.98405pt.
+ [6 <./Figures/containers_vs_VMs.png>]
+<Figures/scaling.png, id=422, 853.1875pt x 521.95pt>
+File: Figures/scaling.png Graphic file (type png)
+<use Figures/scaling.png>
+Package pdftex.def Info: Figures/scaling.png  used on input line 142.
+(pdftex.def)             Requested size: 486.54234pt x 297.65794pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--176
+
+ []
+
+[7 <./Figures/scaling.png>] [8] [9]) [10]
+\openout2 = `Chapters/Methodology.aux'.
+
+ (./Chapters/Methodology.tex
+Chapter 3.
+1: section
+[11
+
+
+
+
+]
+<Figures/Graphs/Cloud_market_share.jpeg, id=457, 1204.5pt x 865.2325pt>
+File: Figures/Graphs/Cloud_market_share.jpeg Graphic file (type jpg)
+<use Figures/Graphs/Cloud_market_share.jpeg>
+Package pdftex.def Info: Figures/Graphs/Cloud_market_share.jpeg  used on input line 29.
+(pdftex.def)             Requested size: 486.54234pt x 349.50629pt.
+ [12 <./Figures/Graphs/Cloud_market_share.jpeg>]
+<Figures/Charts/media_microservices_architecture.png, id=465, 1279.02844pt x 932.73468pt>
+File: Figures/Charts/media_microservices_architecture.png Graphic file (type png)
+<use Figures/Charts/media_microservices_architecture.png>
+Package pdftex.def Info: Figures/Charts/media_microservices_architecture.png  used on input line 53.
+(pdftex.def)             Requested size: 486.54234pt x 354.8129pt.
+ [13 <./Figures/Charts/media_microservices_architecture.png>]
+<Figures/Charts/sockshop-scope_trimmed.png, id=478, 432.11438pt x 198.7425pt>
+File: Figures/Charts/sockshop-scope_trimmed.png Graphic file (type png)
+<use Figures/Charts/sockshop-scope_trimmed.png>
+Package pdftex.def Info: Figures/Charts/sockshop-scope_trimmed.png  used on input line 73.
+(pdftex.def)             Requested size: 486.54234pt x 223.7849pt.
+ [14 <./Figures/Charts/sockshop-scope_trimmed.png>]) [15]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (./Chapters/Chapter3.tex [16
+
+
+
+
+]
+Chapter 4.
+1: section
+[17] (/home/magnus/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+<Figures/Graphs/Total_variance.png, id=504, 409.7709pt x 299.1978pt>
+File: Figures/Graphs/Total_variance.png Graphic file (type png)
+<use Figures/Graphs/Total_variance.png>
+Package pdftex.def Info: Figures/Graphs/Total_variance.png  used on input line 65.
+(pdftex.def)             Requested size: 486.54234pt x 355.2691pt.
+) [18] [19 <./Figures/Graphs/Total_variance.png>] [20
+
+
+
+]
+1: section
+[21] [22] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Methodology.aux) (./Chapters/Chapter3.aux))
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B7BADFE30E6E880893A7103006BB4E47;5870.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 31311 strings out of 476025
+ 674482 string characters out of 5789025
+ 1903388 words of memory out of 5000000
+ 51225 multiletter control sequences out of 15000+600000
+ 559939 words of font info for 100 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 96i,21n,93p,1926b,2730s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (40 pages, 660382 bytes).
+PDF statistics:
+ 630 PDF objects out of 1000 (max. 8388607)
+ 531 compressed objects within 6 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+

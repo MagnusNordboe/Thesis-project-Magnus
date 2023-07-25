@@ -1,0 +1,45 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}%
+\contentsline {chapter}{Abstract}{vii}{section*.2}%
+\contentsline {chapter}{Acknowledgements}{ix}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}%
+\contentsline {section}{\numberline {1.1}Keywords}{1}{section.10}%
+\contentsline {section}{\numberline {1.2}Abstract}{1}{section.11}%
+\contentsline {section}{\numberline {1.3}Research area and questions}{1}{section.12}%
+\contentsline {section}{\numberline {1.4}Approach}{2}{section.13}%
+\contentsline {section}{\numberline {1.5}List of important terms}{2}{section.14}%
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.15}%
+\contentsline {section}{\numberline {2.1}The monolith}{3}{section.16}%
+\contentsline {subsection}{\numberline {2.1.1}Scalability}{4}{subsection.20}%
+\contentsline {subsection}{\numberline {2.1.2}Comprehension}{4}{subsection.24}%
+\contentsline {subsection}{\numberline {2.1.3}Modern software development}{4}{subsection.25}%
+\contentsline {subsection}{\numberline {2.1.4}Resilience}{5}{subsection.26}%
+\contentsline {subsection}{\numberline {2.1.5}Technical debt}{5}{subsection.27}%
+\contentsline {section}{\numberline {2.2}Containers}{6}{section.28}%
+\contentsline {section}{\numberline {2.3}The microservice}{6}{section.30}%
+\contentsline {subsection}{\numberline {2.3.1}Scalability}{6}{subsection.31}%
+\contentsline {subsection}{\numberline {2.3.2}Comprehension}{7}{subsection.33}%
+\contentsline {subsection}{\numberline {2.3.3}Modern software development}{8}{subsection.34}%
+\contentsline {subsection}{\numberline {2.3.4}Resilience}{8}{subsection.35}%
+\contentsline {subsection}{\numberline {2.3.5}Technical debt}{8}{subsection.36}%
+\contentsline {section}{\numberline {2.4}The problems with microservices}{8}{section.37}%
+\contentsline {subsection}{\numberline {2.4.1}Complexity}{9}{subsection.38}%
+\contentsline {subsection}{\numberline {2.4.2}Communication overhead}{9}{subsection.39}%
+\contentsline {subsection}{\numberline {2.4.3}Data consistency}{9}{subsection.40}%
+\contentsline {subsection}{\numberline {2.4.4}Testing and debugging}{10}{subsection.41}%
+\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.42}%
+\contentsline {section}{\numberline {3.1}Background}{11}{section.43}%
+\contentsline {section}{\numberline {3.2}System selection and creation}{11}{section.44}%
+\contentsline {subsection}{\numberline {3.2.1}Cloud solutions}{11}{subsection.45}%
+\contentsline {subsection}{\numberline {3.2.2}Local machine}{12}{subsection.47}%
+\contentsline {subsection}{\numberline {3.2.3}Candidates}{13}{subsection.48}%
+\contentsline {subsubsection}{DeathStarBench}{13}{section*.49}%
+\contentsline {subsubsection}{Sockshop}{14}{section*.51}%
+\contentsline {chapter}{\numberline {4}Data processing}{17}{chapter.53}%
+\contentsline {section}{\numberline {4.1}Imputation}{17}{section.54}%
+\contentsline {subsection}{\numberline {4.1.1}Background}{17}{subsection.55}%
+\contentsline {section}{\numberline {4.2}Series length}{17}{section.56}%
+\contentsline {section}{\numberline {4.3}Feature selection}{18}{section.57}%
+\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{18}{subsection.58}%
+\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{19}{subsection.68}%
+\contentsline {chapter}{Bibliography}{21}{chapter*.69}%
