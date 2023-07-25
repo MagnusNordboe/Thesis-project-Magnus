@@ -1,3 +1,7 @@
 {"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QBut instead of simply being supplied a bunch of information about an existing microservices system,\\E$"}
 {"rule":"ADVERB_WORD_ORDER","sentence":"^\\QThis means: build often, test often, merge often.\\E$"}
 {"rule":"EN_COMPOUNDS","sentence":"^\\QIt can be circumvented by try/catch statements and other error handling methods, but an entangled system is extremely difficult to make fault tolerant.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QThis makes containers completely dependency and OS agnostic.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QThis makes containers completely dependency and OS agnostic, since each container comes with the OS and packages they need to run their process Containers are similar to virtual machines, but much faster and more lightweight.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QThis makes containers completely dependency and OS agnostic, since each container comes with the OS and packages they need to run their process.\\E$"}
+{"rule":"IN_A_X_MANNER","sentence":"^\\QWithout microservices one can still map out a program, but the boundary lines between units can often be hard to nail down in a satisfying manner.\\E$"}

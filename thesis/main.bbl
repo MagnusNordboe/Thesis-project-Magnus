@@ -153,27 +153,24 @@
     \field{urlyear}{2023}
   \endentry
 
-  \entry{Fowler2014}{misc}{}
+  \entry{DOT}{misc}{}
     \name{author}{1}{}{%
-      {{hash=FM}{%
-         family={Fowler},
-         familyi={F\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
+      {{hash=D}{%
+         family={DOT},
+         familyi={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{FM1}
-    \strng{fullhash}{FM1}
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{{Microservices}}
-    \verb{url}
-    \verb https://martinfowler.com/articles/microservices.html
-    \endverb
-    \field{year}{2014}
-    \field{urlday}{31}
-    \field{urlmonth}{01}
-    \field{urlyear}{2022}
+    \field{booktitle}{Department of transportation}
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{Microsoft Word - Final2-28.doc | Enhanced Reader}}
+    \field{year}{2004}
+    \field{urlday}{14}
+    \field{urlmonth}{07}
+    \field{urlyear}{2023}
   \endentry
 
   \entry{Curtis}{article}{}
@@ -197,6 +194,143 @@
     \verb{file}
     \verb ::
     \endverb
+  \endentry
+
+  \entry{McConnell2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={McConnell},
+         familyi={M\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IEEE Software}
+    \field{title}{{"Managing technical debt (slides)" in Workshop On Managing technical debtt (part of ICSE 2013)}}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Fowler2014}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Microservices}}
+    \verb{url}
+    \verb https://martinfowler.com/articles/microservices.html
+    \endverb
+    \field{year}{2014}
+    \field{urlday}{31}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Devops-definition}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JR}{%
+         family={Jabbari},
+         familyi={J\bibinitperiod},
+         given={Ramtin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ANB}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={Nauman\bibnamedelima Bin},
+         giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Petersen},
+         familyi={P\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Tanveer},
+         familyi={T\bibinitperiod},
+         given={Binish},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{DevOps definition,DevOps practice,Software development method}
+    \strng{namehash}{JRANBPK+1}
+    \strng{fullhash}{JRANBPKTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Context: DevOps, the combination of Development and Operations, is a new way of thinking in the software engineering domain that recently received much attention. Given that DevOps is a new term and novel concept recently introduced, no common understanding of what it entails has been achieved yet. Consequently, definitions of DevOps often only represent a part that is relevant to the concept. Objective:This study aims to characterize DevOps by exploring central components of DevOps definitions reported in the literature, specifying practices explicitly proposed for DevOps and investigating the similarities and differences between DevOps and other existing methods in software engineering. Method: A systematic mapping study was conducted that used six electronic databases: IEEE, ACM, Inspec, Scopus, Wiley Online Library and Web of Science. Result: 44 studies have been selected that report a definition of DevOps, 15 studies explicitly stating DevOps practices, and 15 studies stating how DevOps is related to other existing methods. Papers in some cases stated a combination of a definition, practices, and relations to other methods, the total number of primary studies was 49. Conclusion: We proposed a definition for DevOps which may overcome inconsistencies over the various existing definitions of individual research studies. In addition, the practices explicitly proposed for DevOps have been presented as well as the relation to other software development methods.%
+    }
+    \verb{doi}
+    \verb 10.1145/2962695.2962707
+    \endverb
+    \field{isbn}{9781450341349}
+    \field{title}{{What is DevOps? A systematic mapping study on definitions and practices}}
+    \verb{url}
+    \verb https://dl.acm.org/doi/10.1145/2962695.2962707
+    \endverb
+    \field{journaltitle}{ACM International Conference Proceeding Series}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Devops-amazon}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Amazon},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{What is DevOps? - DevOps Models Explained - Amazon Web Services (AWS)}}
+    \verb{url}
+    \verb https://aws.amazon.com/devops/what-is-devops/
+    \endverb
+    \field{urlday}{17}
+    \field{urlmonth}{07}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Samaras2009}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Samaras},
+         familyi={S\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-1-4899-7993-3_713-2
+    \endverb
+    \field{title}{{Two-Phase Commit}}
+    \verb{url}
+    \verb https://www.researchgate.net/publication/275155037
+    \endverb
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{year}{2009}
   \endentry
 
   \entry{DgtlInfra}{misc}{}
@@ -464,7 +598,6 @@
     \endverb
     \field{journaltitle}{Proceedings - 2020 IEEE/ACM 13th International Conference on Utility and Cloud Computing, UCC 2020}
     \field{year}{2020}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Nedelkoski2019}{article}{}
@@ -508,7 +641,6 @@
     \field{title}{{Anomaly detection and classification using distributed tracing and deep learning}}
     \field{journaltitle}{Proceedings - 19th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, CCGrid 2019}
     \field{year}{2019}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Zhou2021a}{article}{}
