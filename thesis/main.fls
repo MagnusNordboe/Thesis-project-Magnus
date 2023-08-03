@@ -1194,6 +1194,11 @@ INPUT ./Figures/scaling.png
 INPUT Figures/scaling.png
 INPUT ./Figures/scaling.png
 INPUT ./Figures/scaling.png
+INPUT ./Figures/two_phase_commit.png
+INPUT ./Figures/two_phase_commit.png
+INPUT Figures/two_phase_commit.png
+INPUT ./Figures/two_phase_commit.png
+INPUT ./Figures/two_phase_commit.png
 INPUT ./Chapters/Methodology.tex
 INPUT ./Chapters/Methodology.tex
 INPUT ./Chapters/Methodology.tex

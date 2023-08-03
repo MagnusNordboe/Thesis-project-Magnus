@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.24)  25 JUL 2023 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.24)  3 AUG 2023 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1012,19 +1012,19 @@ Chapter 2.
 
 
 ]
-<Figures/Graphs/capacity_scaling.pdf, id=371, 722.7pt x 433.62pt>
+<Figures/Graphs/capacity_scaling.pdf, id=375, 722.7pt x 433.62pt>
 File: Figures/Graphs/capacity_scaling.pdf Graphic file (type pdf)
 <use Figures/Graphs/capacity_scaling.pdf>
 Package pdftex.def Info: Figures/Graphs/capacity_scaling.pdf  used on input line 56.
 (pdftex.def)             Requested size: 389.23535pt x 233.54259pt.
  [4] [5 <./Figures/Graphs/capacity_scaling.pdf>]
-<Figures/containers_vs_VMs.png, id=416, 1229.59375pt x 502.87875pt>
+<Figures/containers_vs_VMs.png, id=420, 1229.59375pt x 502.87875pt>
 File: Figures/containers_vs_VMs.png Graphic file (type png)
 <use Figures/containers_vs_VMs.png>
 Package pdftex.def Info: Figures/containers_vs_VMs.png  used on input line 118.
 (pdftex.def)             Requested size: 486.54234pt x 198.98405pt.
  [6 <./Figures/containers_vs_VMs.png>]
-<Figures/scaling.png, id=422, 853.1875pt x 521.95pt>
+<Figures/scaling.png, id=426, 853.1875pt x 521.95pt>
 File: Figures/scaling.png Graphic file (type png)
 <use Figures/scaling.png>
 Package pdftex.def Info: Figures/scaling.png  used on input line 142.
@@ -1039,7 +1039,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--176
 
  []
 
-[7 <./Figures/scaling.png>] [8] [9]) [10]
+[7 <./Figures/scaling.png>] [8]
+<Figures/two_phase_commit.png, id=444, 706.89093pt x 535.2497pt>
+File: Figures/two_phase_commit.png Graphic file (type png)
+<use Figures/two_phase_commit.png>
+Package pdftex.def Info: Figures/two_phase_commit.png  used on input line 227.
+(pdftex.def)             Requested size: 233.53824pt x 176.82895pt.
+
+Underfull \hbox (badness 1721) in paragraph at lines 231--246
+[]\T1/ppl/m/n/10.95 Data con-sis-tency (and the lack thereof) is
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 231--246
+\T1/ppl/m/n/10.95 Updating data can be a chal-leng-ing af-fair.
+ []
+
+[9 <./Figures/two_phase_commit.png>]) [10]
 \openout2 = `Chapters/Methodology.aux'.
 
  (./Chapters/Methodology.tex
@@ -1051,19 +1067,19 @@ Chapter 3.
 
 
 ]
-<Figures/Graphs/Cloud_market_share.jpeg, id=457, 1204.5pt x 865.2325pt>
+<Figures/Graphs/Cloud_market_share.jpeg, id=464, 1204.5pt x 865.2325pt>
 File: Figures/Graphs/Cloud_market_share.jpeg Graphic file (type jpg)
 <use Figures/Graphs/Cloud_market_share.jpeg>
 Package pdftex.def Info: Figures/Graphs/Cloud_market_share.jpeg  used on input line 29.
 (pdftex.def)             Requested size: 486.54234pt x 349.50629pt.
  [12 <./Figures/Graphs/Cloud_market_share.jpeg>]
-<Figures/Charts/media_microservices_architecture.png, id=465, 1279.02844pt x 932.73468pt>
+<Figures/Charts/media_microservices_architecture.png, id=472, 1279.02844pt x 932.73468pt>
 File: Figures/Charts/media_microservices_architecture.png Graphic file (type png)
 <use Figures/Charts/media_microservices_architecture.png>
 Package pdftex.def Info: Figures/Charts/media_microservices_architecture.png  used on input line 53.
 (pdftex.def)             Requested size: 486.54234pt x 354.8129pt.
  [13 <./Figures/Charts/media_microservices_architecture.png>]
-<Figures/Charts/sockshop-scope_trimmed.png, id=478, 432.11438pt x 198.7425pt>
+<Figures/Charts/sockshop-scope_trimmed.png, id=485, 432.11438pt x 198.7425pt>
 File: Figures/Charts/sockshop-scope_trimmed.png Graphic file (type png)
 <use Figures/Charts/sockshop-scope_trimmed.png>
 Package pdftex.def Info: Figures/Charts/sockshop-scope_trimmed.png  used on input line 73.
@@ -1082,7 +1098,7 @@ Chapter 4.
 [17] (/home/magnus/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-<Figures/Graphs/Total_variance.png, id=504, 409.7709pt x 299.1978pt>
+<Figures/Graphs/Total_variance.png, id=512, 409.7709pt x 299.1978pt>
 File: Figures/Graphs/Total_variance.png Graphic file (type png)
 <use Figures/Graphs/Total_variance.png>
 Package pdftex.def Info: Figures/Graphs/Total_variance.png  used on input line 65.
@@ -1098,7 +1114,7 @@ Package pdftex.def Info: Figures/Graphs/Total_variance.png  used on input line 6
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B7BADFE30E6E880893A7103006BB4E47;5870.
+(rerunfilecheck)             Checksum: 08BEDBCAC858F72F34BAE5AFA4000E2D;5870.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1109,18 +1125,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31311 strings out of 476025
- 674482 string characters out of 5789025
- 1903388 words of memory out of 5000000
- 51225 multiletter control sequences out of 15000+600000
+ 31322 strings out of 476025
+ 674756 string characters out of 5789025
+ 1902388 words of memory out of 5000000
+ 51233 multiletter control sequences out of 15000+600000
  559939 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,21n,93p,1926b,2730s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></home/magnus/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (40 pages, 660382 bytes).
+Output written on main.pdf (40 pages, 805719 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 531 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
- 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 393 words of extra memory for PDF output out of 10000 (max. 10000000)
 

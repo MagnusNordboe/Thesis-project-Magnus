@@ -97,3 +97,14 @@ There are also some major downsides to the Sockshop.
 The website for the project \cite*{Weaveworks} has documentation, but it gives few details about the underlying structure of the system. 
 For example, it has Prometheus instrumentation. But it gives no information on which client libraries are installed where. Finding out requires digging through the source code and metrics.
 The project has been dead for some time. The last commit on GitHub as of time of writing was on August 17, 2021. 
+
+\subsubsection*{Spring petclinic}
+This is a project by the Spring petclinic community on Github.
+Spring petclinic was a demo application created all the way back in 2004 to showcase the then brand new Spring framework.
+Since then, it has gone through several changes, but was put up on GitHub in 2013. 
+It has since been developed into several forks that take the demo application in different directions.
+One of those directions is the \textit{spring-petclinic-microservices} fork, which showcases how one can split a monolithic application into microservices.
+This fork is currently by far the most popular of the forks.
+The petclinic demo application is quite simple, as it is essentially just a database system. It consists of only three main components. 
+By "main components", I mean microservices that focus on delivering the service to the end user.
+In addition to the main components, it comes with Prometheus, Grafana

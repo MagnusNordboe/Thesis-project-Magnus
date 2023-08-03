@@ -26,20 +26,20 @@
 \contentsline {subsection}{\numberline {2.4.1}Complexity}{9}{subsection.38}%
 \contentsline {subsection}{\numberline {2.4.2}Communication overhead}{9}{subsection.39}%
 \contentsline {subsection}{\numberline {2.4.3}Data consistency}{9}{subsection.40}%
-\contentsline {subsection}{\numberline {2.4.4}Testing and debugging}{10}{subsection.41}%
-\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.42}%
-\contentsline {section}{\numberline {3.1}Background}{11}{section.43}%
-\contentsline {section}{\numberline {3.2}System selection and creation}{11}{section.44}%
-\contentsline {subsection}{\numberline {3.2.1}Cloud solutions}{11}{subsection.45}%
-\contentsline {subsection}{\numberline {3.2.2}Local machine}{12}{subsection.47}%
-\contentsline {subsection}{\numberline {3.2.3}Candidates}{13}{subsection.48}%
-\contentsline {subsubsection}{DeathStarBench}{13}{section*.49}%
-\contentsline {subsubsection}{Sockshop}{14}{section*.51}%
-\contentsline {chapter}{\numberline {4}Data processing}{17}{chapter.53}%
-\contentsline {section}{\numberline {4.1}Imputation}{17}{section.54}%
-\contentsline {subsection}{\numberline {4.1.1}Background}{17}{subsection.55}%
-\contentsline {section}{\numberline {4.2}Series length}{17}{section.56}%
-\contentsline {section}{\numberline {4.3}Feature selection}{18}{section.57}%
-\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{18}{subsection.58}%
-\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{19}{subsection.68}%
-\contentsline {chapter}{Bibliography}{21}{chapter*.69}%
+\contentsline {subsection}{\numberline {2.4.4}Testing and debugging}{10}{subsection.42}%
+\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.43}%
+\contentsline {section}{\numberline {3.1}Background}{11}{section.44}%
+\contentsline {section}{\numberline {3.2}System selection and creation}{11}{section.45}%
+\contentsline {subsection}{\numberline {3.2.1}Cloud solutions}{11}{subsection.46}%
+\contentsline {subsection}{\numberline {3.2.2}Local machine}{12}{subsection.48}%
+\contentsline {subsection}{\numberline {3.2.3}Candidates}{13}{subsection.49}%
+\contentsline {subsubsection}{DeathStarBench}{13}{section*.50}%
+\contentsline {subsubsection}{Sockshop}{14}{section*.52}%
+\contentsline {chapter}{\numberline {4}Data processing}{17}{chapter.55}%
+\contentsline {section}{\numberline {4.1}Imputation}{17}{section.56}%
+\contentsline {subsection}{\numberline {4.1.1}Background}{17}{subsection.57}%
+\contentsline {section}{\numberline {4.2}Series length}{17}{section.58}%
+\contentsline {section}{\numberline {4.3}Feature selection}{18}{section.59}%
+\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{18}{subsection.60}%
+\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{19}{subsection.70}%
+\contentsline {chapter}{Bibliography}{21}{chapter*.71}%

@@ -222,6 +222,12 @@ This is also a significant factor for latency, and can be a bottleneck for servi
 
 
 \subsection{Data consistency}
+\begin{wrapfigure}{r}{0.5\textwidth}
+\centering
+\includegraphics[width=0.48\textwidth]{Figures/two_phase_commit.png}
+\caption{The two-phase commit protocol. Credit: \cite*{Samaras2009}}
+\label{2PC}
+\end{wrapfigure}
 Data consistency (and the lack thereof) is another complexity trade-off in microservices architecture.
 While implementations vary, it is common for microservices to each have their own little database for storing data relevant to their work.
 This leads to resilience, but also means that changed values may take time to propagate to all relevant microservices, leading to microservices potentially disagreeing on the value of certain variables.
@@ -232,8 +238,14 @@ That would require noticing a fault occurred, then notifying all the services th
 The most common implementation of this is the \textit{two-phase commit protocol} (2PC). 
 It works by assigning one node as the coordinator/master, who sends a query to commit message to all other nodes.
 All nodes then vote, by performing some internal check to see if it could successfully commit the proposed change.
+This is the first phase of 2PC, the voting phase.
 If all nodes voted yes, then a commit message is sent from the coordinator/master to perform the change.
+This is phase two of 2PC, the decision phase.
 This process does a pretty good job at ensuring data consistency, but has many potential issues.
 While the core algorithm itself is pretty simple, the actual implementation ends up being complex because it has to include protocols for many types of issues \cite*{Samaras2009}.    
 
+
 \subsection{Testing and debugging}
+Microservice architectures can become very complex. As stated earlier, it is an intentional complexity trade-off that should be more manageable in theory.
+Their specific brand of complexity gives rise to a specific brand of headaches for testers and developers.
+The complex network interactions between independent nodes create new potential points of failure that can be hard to track and debug.
