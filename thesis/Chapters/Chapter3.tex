@@ -41,12 +41,34 @@ The raw data collected from the Prometheus service has 579 features. Most of thi
 
 Noisy data will lead to poor performance of the machine learning model because the noise will mask the real underlying function it tries to learn. To get good predictions out, the main task is going to be separating noise from information. 
 
-\subsection{Low variance or monotonic features}
+\subsection{Zero variance features}
 The variance numbers shown in figure \ref*{variance} are scaled. This means the variance value for each variable is proportional to the mean value of that variable.
 Of the 579 variables in the dataset, 110 of them have a variance of exactly 0. This means they are entirely unaffected by both time and stress testing. Such variables are entirely useless and simply dilute the information in the data. 
-Another issue is monotonically increasing variables. In this dataset, these variables tend to be some form of counter. Simply throwing them in with the regular variables would add a lot of noise, as the algorithms would not know to treat them differently.
-\textbf{Monotonically increasing variables can still be very useful in machine learning if treated properly, but it is out of the scope of this project. This is because there are two main ways of fitting such variables into  machine learning model like the ones used in this project: One is differencing, where the changes in value instead of the absolute number is taken into account. }
-The more interesting problems arise from variables with low variance. 
+
+\subsection{Low variance features}
+Low variance features can be tricky to make good use of. Deciding which features say a lot about the system with small changes, and which features simply have little to say requires good domain knowledge and expirementation.
+Once one has a solid idea about the relevance of the various low variance features, one can make sure they matter more in the data set.
+One approach to this is simply model selection: Tree based models like random forest will naturally treat features of varying variance equally or near-equally. This can be a great choice if one does not want to change the data too much for whatever reason. However, this same attribute means one has to prune low-impact low-variance data, lest they contribute a lot of noise.
+Another approach is to solve this low-variance high-impact problem through preprocessing. 
+Normalization and/or standardization will naturally even out the variances between features in an MTS.
+However, the way this evening out occurs is different. As demonstrated in \ref*{variance impact}, standardization forces all variances to be exactly 1, while normalization is more dependent on the dataset. It is worth noting that the variances around 0.1 in the graph is not a rule, and dependent on the range and variance on the original dataset.
+To make of low variance features in datasets that are going to be normalized, it might be important to exaggerate the variance of these important datasets, for example by squaring all values.
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\columnwidth]{Figures/Graphs/variance_normalization_stardization.png}
+\caption{How standardization and normalization impacts variance in datasets of different scale}
+\label{variance impact}
+\end{figure}does stan
+
+\subsection{Monotonic features}
+Another issue is monotonically increasing features. In this dataset, these variables tend to be some form of counter. Simply throwing them in with the regular variables would add a lot of noise, as the algorithms would not know to treat them differently.
+They would have to be treated differently to not be noise because they are consistently changing, i.e. growing. Most machine learning algorithms would only see the change in value, and try to associate the static changes with some part of the data. This would dilute the actual information in the dataset an confuse the algorithm.
+Monotonically increasing variables can still be very useful in machine learning if treated properly, but it is out of the scope of this project. 
+This is mainly because using monotonic variables require both good domain knowledge and good knowledge of how to transform the vairables into a format that can provide value for training. 
+For the sake of scope, they are simply removed from the dataset when training in this project.
+
 
 \begin{lstlisting}[language=Python]
 def select_by_variance(df:pd.DataFrame, amount:int):
@@ -55,7 +77,6 @@ def select_by_variance(df:pd.DataFrame, amount:int):
     return selection.index
 best_features = select_by_variance(trimmed_df, 5)
 X = scaled[best_features]
-best_features
 \end{lstlisting}
 
 
@@ -67,6 +88,7 @@ best_features
 \label{variance}
 \end{figure}
 
-\subsection{Variable vs feature}
-In time series learning, the terms variable and feature are often used interchangeably, which can cause confusion. 
-Crucially, variables are a type of feature. 
+% \subsection{Variable vs feature}
+% In time series learning, the terms variable and feature are often used interchangeably, which can cause confusion. 
+% Crucially, variables are a type of feature. 
+

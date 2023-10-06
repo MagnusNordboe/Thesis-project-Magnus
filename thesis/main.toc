@@ -40,6 +40,8 @@
 \contentsline {subsection}{\numberline {4.1.1}Background}{17}{subsection.57}%
 \contentsline {section}{\numberline {4.2}Series length}{17}{section.58}%
 \contentsline {section}{\numberline {4.3}Feature selection}{18}{section.59}%
-\contentsline {subsection}{\numberline {4.3.1}Low variance or monotonic features}{18}{subsection.60}%
-\contentsline {subsection}{\numberline {4.3.2}Variable vs feature}{19}{subsection.70}%
-\contentsline {chapter}{Bibliography}{21}{chapter*.71}%
+\contentsline {subsection}{\numberline {4.3.1}Zero variance features}{18}{subsection.60}%
+\contentsline {subsection}{\numberline {4.3.2}Low variance features}{18}{subsection.61}%
+\contentsline {subsection}{\numberline {4.3.3}Monotonic features}{19}{subsection.63}%
+\contentsline {subsection}{\numberline {4.3.4}Variable vs feature}{20}{subsection.72}%
+\contentsline {chapter}{Bibliography}{21}{chapter*.73}%

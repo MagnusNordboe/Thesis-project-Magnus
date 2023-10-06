@@ -1,13 +1,14 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Scaling a monolith requires making assumptions about future growth\relax }}{5}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Containers vs VMs. Image credit: Docker inc\relax }}{6}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustrating how monoliths and microservices handle scaling. Credit: Martin Fowler \blx@tocontentsinit {0}\cite *{Fowler2014}\relax }}{7}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The two-phase commit protocol. Credit: \blx@tocontentsinit {0}\cite *{Samaras2009}\relax }}{9}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Scaling a monolith requires making assumptions about future growth}}{5}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Containers vs VMs. Image credit: Docker inc}}{6}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustrating how monoliths and microservices handle scaling. Credit: Martin Fowler \blx@tocontentsinit {0}\cite *{Fowler2014}}}{7}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The two-phase commit protocol. Credit: \blx@tocontentsinit {0}\cite *{Samaras2009}}}{9}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \blx@tocontentsinit {0}\cite *{Richter}.\relax }}{12}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The workload architecture for DSB's media service \blx@tocontentsinit {0}\cite *{Gan2019}.\relax }}{13}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \blx@tocontentsinit {0}\cite *{Weaveworks}\relax }}{14}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \blx@tocontentsinit {0}\cite *{Richter}.}}{12}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The workload architecture for DSB's media service \blx@tocontentsinit {0}\cite *{Gan2019}.}}{13}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \blx@tocontentsinit {0}\cite *{Weaveworks}}}{14}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Scaled variance of all the variables\relax }}{19}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces How standardization and normalization impacts variance in datasets of different scale}}{19}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Scaled variance of all the variables}}{20}{figure.caption.71}%
