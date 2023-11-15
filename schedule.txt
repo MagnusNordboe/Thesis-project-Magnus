@@ -1,0 +1,17 @@
+V1: What must be done
+Write discussion and talk about results - priority 1
+Tie what I write about microervices into leading into why what I did was relevant to that
+Tie in python code piece by piece in a chapter that displays all the steps I did to make the data better. 
+
+What subchapters do I have left to write?
+Finish 4.2 series length
+4.3 should wrap up
+4.4 Collection... make it 4.1?
+Storage?
+Where to write about the generation of data?
+Make chapter 4 the entire thing about that?
+in chapter 3 write methodology and make that the way to collect and store data?
+What IS my methodology? I would say it is: 
+Essentially what I've done: Create this system to stress test and generate data.
+Then look at what needs to be done to make good use of that data. 
+Then argue that through all this work, I have created a pipeline for both generating and preprocessing as well as visualizing the data.

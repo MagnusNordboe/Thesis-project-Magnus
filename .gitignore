@@ -10,4 +10,6 @@ query/automated/generated_csvs
 query/automated/print_output.txt
 *.csv
 !analysis/storage/scaled_and_trimmed.csv
-
+thesis
+!*.tex
+!*.bib

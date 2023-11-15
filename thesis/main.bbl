@@ -121,8 +121,7 @@
     \verb http://www.sei.cmu.edu/publications/pubweb.html
     \endverb
     \verb{file}
-    \verb :home/magnus/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloa
-    \verb ded/Weinstock, Goodenough - 2006 - On System Scalability.pdf:pdf
+    \verb ::
     \endverb
     \field{journaltitle}{U.S. Ministry of defence}
     \field{year}{2006}
@@ -160,8 +159,8 @@
          familyi={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{D1}
-    \strng{fullhash}{D1}
+    \strng{namehash}{D2}
+    \strng{fullhash}{D2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{booktitle}{Department of transportation}
@@ -328,7 +327,9 @@
     \verb https://www.researchgate.net/publication/275155037
     \endverb
     \verb{file}
-    \verb ::
+    \verb :home/magnus/.var/app/com.elsevier.MendeleyDesktop/data/data/Mendeley
+    \verb  Ltd./Mendeley Desktop/Downloaded/Samaras - 2009 - Two-Phase Commit.p
+    \verb df:pdf
     \endverb
     \field{year}{2009}
   \endentry
@@ -539,10 +540,7 @@
     \field{pages}{3\bibrangedash 18}
     \field{title}{{An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud {\&} Edge Systems}}
     \verb{file}
-    \verb :home/magnus/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloa
-    \verb ded/Gan et al. - 2019 - An Open-Source Benchmark Suite for Microservi
-    \verb ces and Their Hardware-Software Implications for Cloud {\&} Edge Syst
-    \verb ems.pdf:pdf
+    \verb ::
     \endverb
     \field{journaltitle}{International Conference on Architectural Support for Programming Languages and Operating Systems - ASPLOS}
     \field{year}{2019}
@@ -692,6 +690,135 @@
     \field{urlyear}{2023}
   \endentry
 
+  \entry{springboot}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Springboot},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{GitHub}
+    \field{title}{{spring-petclinic/spring-petclinic-microservices: Distributed version of Spring Petclinic built with Spring Cloud}}
+    \verb{url}
+    \verb https://github.com/spring-petclinic/spring-petclinic-microservices
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{24}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Pasos}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PA}{%
+         family={{Pasos Ruiz}},
+         familyi={P\bibinitperiod},
+         given={Alejandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Flynn},
+         familyi={F\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Large},
+         familyi={L\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Middlehurst},
+         familyi={M\bibinitperiod},
+         given={{\textperiodcentered}\bibnamedelima Matthew},
+         giveni={{\textperiodcentered}\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bagnall},
+         familyi={B\bibinitperiod},
+         given={{\textperiodcentered}\bibnamedelima Anthony},
+         giveni={{\textperiodcentered}\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Evaluating classifiers,Multivariate time series,Time series classification,UEA archive}
+    \strng{namehash}{PAFMLJ+1}
+    \strng{fullhash}{PAFMLJMMBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Time Series Classification (TSC) involves building predictive models for a discrete target variable from ordered, real valued, attributes. Over recent years, a new set of TSC algorithms have been developed which have made significant improvement over the previous state of the art. The main focus has been on univariate TSC, i.e. the problem where each case has a single series and a class label. In reality, it is more common to encounter multivariate TSC (MTSC) problems where the time series for a single case has multiple dimensions. Despite this, much less consideration has been given to MTSC than the univariate case. The UCR archive has provided a valuable resource for univariate TSC, and the lack of a standard set of test problems may explain why there has been less focus on MTSC. The UEA archive of 30 MTSC problems released in 2018 has made comparison of algorithms easier. We review recently proposed bespoke MTSC algorithms based on deep learning, shapelets and bag of words approaches. If an algorithm cannot naturally handle multivariate data, the simplest approach to adapt a univariate classifier to MTSC is to ensemble it over the multivariate dimensions. We compare the bespoke algorithms to these dimension independent approaches on the 26 of the 30 MTSC archive problems where the data are all of equal length. We demonstrate that four classifiers are significantly more accurate than the benchmark dynamic time warping algorithm and that one of these recently proposed classifiers, ROCKET, achieves significant improvement on the archive datasets in at least an order of magnitude less time than the other three.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10618-020-00727-3
+    \endverb
+    \field{pages}{401\bibrangedash 449}
+    \field{title}{{The great multivariate time series classification bake off: a review and experimental evaluation of recent algorithmic advances}}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10618-020-00727-3
+    \endverb
+    \field{volume}{35}
+    \verb{file}
+    \verb :home/magnus/.var/app/com.elsevier.MendeleyDesktop/data/data/Mendeley
+    \verb  Ltd./Mendeley Desktop/Downloaded/Pasos Ruiz et al. - 2021 - The grea
+    \verb t multivariate time series classification bake off a review and exper
+    \verb imental evaluation of recent alg.pdf:pdf
+    \endverb
+    \field{journaltitle}{Data Mining and Knowledge Discovery}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Kiraly}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KF}{%
+         family={Kiraly},
+         familyi={K\bibinitperiod},
+         given={Franz},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KF1}
+    \strng{fullhash}{KF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Sktime}}
+    \verb{url}
+    \verb https://www.sktime.net/en/stable/
+    \endverb
+    \field{urlday}{15}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Waskom2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WML}{%
+         family={Waskom},
+         familyi={W\bibinitperiod},
+         given={Micheal\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WML1}
+    \strng{fullhash}{WML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.21105/joss.03021
+    \endverb
+    \field{title}{seaborn: statistical data visualization}
+    \verb{url}
+    \verb https://doi.org/10.21105/joss.03021
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Journal of Open Source Software}
+    \field{year}{2021}
+  \endentry
+
   \entry{Scikit-learn-imputation}{misc}{}
     \name{author}{1}{}{%
       {{hash=Sl}{%
@@ -713,6 +840,199 @@
     \field{urlday}{13}
     \field{urlmonth}{04}
     \field{urlyear}{2023}
+  \endentry
+
+  \entry{pullrequest}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=NM}{%
+         family={Nordb{\o}},
+         familyi={N\bibinitperiod},
+         given={Magnus},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NM1}
+    \strng{fullhash}{NM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Locust pull request}}
+    \verb{url}
+    \verb https://github.com/locustio/locust/pull/2248
+    \endverb
+    \field{year}{2023}
+    \field{urlday}{31}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Nordboe2023}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=NM}{%
+         family={Nordboe},
+         familyi={N\bibinitperiod},
+         given={Magnus},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NM2}
+    \strng{fullhash}{NM2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Zenodo}
+    \field{title}{{Prometheus stress testing data from the microservices-demo "sockshop" application}}
+    \verb{url}
+    \verb https://zenodo.org/records/10107954?token=eyJhbGciOiJIUzUxMiJ9.eyJpZC
+    \verb I6IjEyZTJhZDI3LTk5ZTMtNDkyNy1iMWQyLThiNWJiN2RjOWQ1NyIsImRhdGEiOnt9LCJ
+    \verb yYW5kb20iOiI1NGUxMWI0NGYyNzYwNWYxOTA1M2ZkODBmNjNkNjk4MCJ9.IdwfvH0D7pc
+    \verb 9QZnVk0t8cz7CK49XJV75hW8OFUfFQ3dBdfyvGfT2dV0TEDr
+    \endverb
+    \field{year}{2023}
+    \field{urlday}{12}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Nyberg}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=NS}{%
+         family={Nyberg},
+         familyi={N\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NS1}
+    \strng{fullhash}{NS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{siimon/prom-client: Prometheus client for node.js}}
+    \verb{url}
+    \verb https://github.com/siimon/prom-client
+    \endverb
+    \field{urlday}{14}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Traefik}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=T}{%
+         family={Traefik},
+         familyi={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{traefik/traefik: The Cloud Native Application Proxy}}
+    \verb{url}
+    \verb https://github.com/traefik/traefik{\#}supported-backends
+    \endverb
+    \field{urlday}{14}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Docker}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={Docker},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Runtime options with Memory, CPUs, and GPUs | Docker Docs}}
+    \verb{url}
+    \verb https://docs.docker.com/config/containers/resource{\_}constraints/
+    \endverb
+    \field{urlday}{15}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{Heinrich2017}{article}{}
+    \name{author}{8}{}{%
+      {{hash=HR}{%
+         family={Heinrich},
+         familyi={H\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={{Van Hoorn}},
+         familyi={V\bibinitperiod},
+         given={Andr{\'{e}}},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Knoche},
+         familyi={K\bibinitperiod},
+         given={Holger},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LLE}{%
+         family={Lwakatare},
+         familyi={L\bibinitperiod},
+         given={Lucy\bibnamedelima Ellen},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Pahl},
+         familyi={P\bibinitperiod},
+         given={Claus},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schulte},
+         familyi={S\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wettinger},
+         familyi={W\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery, Inc}%
+    }
+    \strng{namehash}{HRVAKH+1}
+    \strng{fullhash}{HRVAKHLFLLEPCSSWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Microservices complement approaches like DevOps and continuous delivery in terms of software architecture. Along with this architectural style, several important deployment technologies, such as container-based virtualization and container orchestration solutions, have emerged. These technologies allow to efficiently exploit cloud platforms, providing a high degree of scalability, availability, and portability for microservices. Despite the obvious importance of a sufficient level of performance, there is still a lack of performance engineering approaches explicitly taking into account the particularities of microservices. In this paper, we argue why new solutions to performance engineering for microservices are needed. Furthermore, we identify open issues and outline possible re- search directions with regard to performance-Aware testing, monitoring, and modeling of microservices.%
+    }
+    \verb{doi}
+    \verb 10.1145/3053600.3053653
+    \endverb
+    \field{isbn}{9781450348997}
+    \field{pages}{223\bibrangedash 226}
+    \field{title}{{Performance engineering for microservices: Research challenges {\&} directions}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1145/3053600.3053653
+    \endverb
+    \verb{file}
+    \verb :home/magnus/.var/app/com.elsevier.MendeleyDesktop/data/data/Mendeley
+    \verb  Ltd./Mendeley Desktop/Downloaded/Heinrich et al. - 2017 - Performanc
+    \verb e engineering for microservices Research challenges {\&} directions.p
+    \verb df:pdf
+    \endverb
+    \field{journaltitle}{ICPE 2017 - Companion of the 2017 ACM/SPEC International Conference on Performance Engineering}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput

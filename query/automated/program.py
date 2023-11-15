@@ -76,21 +76,21 @@ def setLoop(tags_and_amounts, runtime):
             command = buildCommand(amount, DEFAULT_SPAWNRATE, runtime, tag, LOCUSTFILE_COMPLETE_LOCATION)
             print("Running Locust with tag " + tag + " with " + str(amount) + " users")
             print("command: ", command)
-            result = cmd(command)
+            result = cmd(command) #Synchronous command using powershell, which pauses execution until the stress testing is over
             if result.stderr:
                 with open("Print_output.txt","a") as outputfile:
                     outputfile.write(str(result.stderr))
                     outputfile.close()
             
-            time.sleep(15)
+            time.sleep(15) #
             collection.collection(RUN_TIME+1, DEFAULT_STEP, "./metrics.json", now_unix,tag, now_unix)
 
 def setloop_random(tags_and_amounts, runtime):
     now = datetime.now()
-    now_unix = time.mktime(now.timetuple())
+    now_unix = time.mktime(now.timetuple()) #Making a prometheus compatible timestamp
 
-    for tag in tags_and_amounts["tags"]:
-        amount = random.randint(tags_and_amounts["lower_bound_users"],tags_and_amounts["upper_bound_users"])
+    for tag in tags_and_amounts["tags"]: #tags are references to locustfile tasks, that stress a given endpoint corresponding to that tag.
+        amount = random.randint(tags_and_amounts["lower_bound_users"],tags_and_amounts["upper_bound_users"]) #amount is number of users, between 10000 and 12000
         
         command = buildCommand(amount, DEFAULT_SPAWNRATE, runtime, tag, LOCUSTFILE_COMPLETE_LOCATION)
         print("Running Locust with tag " + tag + " with " + str(amount) + " users")

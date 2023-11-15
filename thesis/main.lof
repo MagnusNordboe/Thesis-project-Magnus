@@ -1,14 +1,43 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Scaling a monolith requires making assumptions about future growth}}{5}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Containers vs VMs. Image credit: Docker inc}}{6}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustrating how monoliths and microservices handle scaling. Credit: Martin Fowler \blx@tocontentsinit {0}\cite *{Fowler2014}}}{7}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The two-phase commit protocol. Credit: \blx@tocontentsinit {0}\cite *{Samaras2009}}}{9}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Scaling a monolith requires making assumptions about future growth}}{5}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustrating how monoliths and microservices handle scaling. Credit: Martin Fowler \blx@tocontentsinit {0}\cite *{Fowler2014}}}{6}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Containers vs VMs. Image credit: Docker inc}}{8}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The two-phase commit protocol. Credit: \blx@tocontentsinit {0}\cite *{Samaras2009}}}{9}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The two generals problem: The final sender of a message can never know that it has been received.}}{10}{figure.caption.38}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \blx@tocontentsinit {0}\cite *{Richter}.}}{12}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The workload architecture for DSB's media service \blx@tocontentsinit {0}\cite *{Gan2019}.}}{13}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \blx@tocontentsinit {0}\cite *{Weaveworks}}}{14}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The proposed contribution to modelling and comprehension of performance issues in microservices: Contributions in green}}{13}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \blx@tocontentsinit {0}\cite *{Richter}.}}{15}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The workload architecture for DSB's media service \blx@tocontentsinit {0}\cite *{Gan2019}.}}{16}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \blx@tocontentsinit {0}\cite *{Weaveworks}}}{17}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The architecture graph of the microservices spring petclinic}}{19}{figure.caption.58}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces How standardization and normalization impacts variance in datasets of different scale}}{19}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Scaled variance of all the variables}}{20}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces How standardization and normalization impacts variance in datasets of different scale}}{23}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces How differencing places emphasis on changes in increment}}{25}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scaled variance of all the variables}}{26}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Demonstrating how the linearity of PCA makes it bad at approximating non-linear data. Here compared to isomap, a non-linear dimensionality reduction algorithm. Credit: https://stats.stackexchange.com/a/124545}}{26}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The resulting data structure}}{36}{figure.caption.189}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The mean metric readouts for each time point during stressing. The shown metrics are the top 5 highest variance metrics}}{38}{figure.caption.368}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Metric 6-10 by variance}}{39}{figure.caption.369}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Metric 10-15 by variance}}{40}{figure.caption.370}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Metric 15-20 by variance}}{40}{figure.caption.371}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Metric 25-20 by variance}}{41}{figure.caption.372}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Metric 25-30 by variance}}{41}{figure.caption.373}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Metric 30-32 by variance}}{42}{figure.caption.374}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Top five metrics with non-ubiquitous features}}{42}{figure.caption.376}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Non-ubiquitous features, 5-10}}{43}{figure.caption.377}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Non-ubiquitous features, 10-15}}{43}{figure.caption.378}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Non-ubiquitous features, 15-20}}{44}{figure.caption.379}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Non-ubiquitous features, 20-25}}{44}{figure.caption.380}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Non-ubiquitous features, 25-30}}{45}{figure.caption.381}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Non-ubiquitous features, 30-35}}{45}{figure.caption.382}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Non-ubiquitous features, 35-40}}{46}{figure.caption.383}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Non-ubiquitous features, 40-45}}{46}{figure.caption.384}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Non-ubiquitous features, 45-50}}{47}{figure.caption.385}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Non-ubiquitous features, 50-55}}{47}{figure.caption.386}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Non-ubiquitous features, 55-60}}{48}{figure.caption.387}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Non-ubiquitous features, 60-65}}{48}{figure.caption.388}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Non-ubiquitous features, 65-70}}{49}{figure.caption.389}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Top 5 PCA(10)-reduced features by variance.}}{49}{figure.caption.391}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Illustration of the circuit breaker functionality. Credit: Traefik.io}}{51}{figure.caption.395}%

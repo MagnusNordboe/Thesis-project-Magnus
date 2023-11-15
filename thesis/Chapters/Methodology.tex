@@ -1,12 +1,21 @@
 \chapter{Methodology}
 
+The general idea for answering the research question will be to create a system for generating stress test data, collecting metrics from the stressing period, and treating that data to be able to inform the user about bottlenecks or other performance quirks.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{Figures/Charts/contribution.drawio.pdf}
+    \caption{The proposed contribution to modelling and comprehension of performance issues in microservices: Contributions in green}
+    \label{Contributions}
+\end{figure}
+
 In this chapter, I will describe the decision-making process behind the system used for generating and collecting test data. I will then describe the system itself in more detail.
 
 \section{Background}
 The project was initially started by Sintef in collaboration with a company that runs a microservices hosting platform. This company had requested Sintef to do research on their platform, to look at ways to anticipate issues like version conflicts and performance drops. \\
-Another student and I were brought onto the project as master thesis project tie-ins. The other student was to focus on technical lag, and I was to focus on performance. However, soon after we had been brought onto the project and gotten the go-ahead from the faculty and everything stamped and sealed, the company that hired Sintef simply stopped responding. No e-mails, no meetings, no phone calls. So we were left stranded, and would have to come up with something for ourselves. \\
-We decided to go ahead with the initial goals of the project: To research a microservice system and try to make predictors that could see performance and compatibility issues ahead of time. 
-But instead of simply being supplied information about an existing microservice system, we had to create our own systems and our own tests. 
+Another student and I were brought onto the project as master thesis project tie-ins. The other student was to focus on technical lag, and I was to focus on performance. However, difficulties arose with the company in question, and we were unable to get any data from them.
+We decided to go ahead with the initial goals of the project: To research a microservice system and try to make good use of collected data to say things about the system.
+But instead of simply being supplied information about an existing microservice system, we had to create our own systems and our own tests.
 
 \section{System selection and creation}
 Building a microservice system can be a very complex affair, and subject to a master thesis project on its own. So making one from scratch would be far outside the scope of the project. As such, a list of requirements for the project were devised:
@@ -14,34 +23,34 @@ Building a microservice system can be a very complex affair, and subject to a ma
 \begin{itemize}
     \item The system would need to be relatively quick and easy to get up and running.
     \item It must be possible to generate faults in the system.
-    \item The system must be able to collect and provide data about itself and its performance. 
+    \item The system must be able to collect and provide data about itself and its performance.
     \item It must be feasible to run and stress test this system on a student's budget.
 \end{itemize}
 
 \subsection{Cloud solutions}
-Cloud computing is in several ways a natural fit for this project. Microservices as a concept is formulated with cloud computing in mind. Cloud service providers tend to provide some microservice-specific services. 
+Cloud computing is in several ways a natural fit for this project. Microservices as a concept is formulated with cloud computing in mind. Cloud service providers tend to provide some microservice-specific services.
 The three biggest players in cloud services are Amazon, Microsoft and Google \cite*{DgtlInfra}. They all offer some level of free access, and student deals can be negotiated for more credits. They all integrate Kubernetes while adding their own ease-of-use features, so launching some premade system on them should be feasible. \\
 However, they come with some issues. The biggest issue is cost. In the course of my work, I was bound to do quite a lot of stress testing. This would be bound to burn through a ton of credits. Another issue would be dealing with their own built-in load balancing and DDoS protection. Getting accurate results from stress testing could turn out expensive as well as unreliable.\\
 I set up free accounts for both Google Kubernetes Engine (GKE), Google's distributed cloud service, and Amazon Web Services (AWS), and reached out to apply for a student grant. However, response was slow, and it looked unlikely that I would be granted the necessary amount of credits.
 
-\begin{figure} 
-\centering 
-\includegraphics[width=\columnwidth]{Figures/Graphs/Cloud_market_share.jpeg}
-\caption{Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \cite*{Richter}.}
-\label{Cloud market share}
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{Figures/Graphs/Cloud_market_share.jpeg}
+    \caption{Worldwide market share of leading cloud infrastructure providers in Q1 2023. Source: Statista \cite*{Richter}.}
+    \label{Cloud market share}
 \end{figure}
 
 \subsection{Local machine}
-With the prospect of using cloud infrastructure seeming slim, we turned to doing what we could with the resources available to us. We both possessed personal desktop computers with decent processing power. 
-Running on a local machine would give much better control over the system, and the project would not be beholden to the whims of a cloud service provider. 
+With the prospect of using cloud infrastructure seeming slim, we turned to doing what we could with the resources available to us. We both possessed personal desktop computers with decent processing power.
+Running on a local machine would give much better control over the system, and the project would not be beholden to the whims of a cloud service provider.
 It does come with some drawbacks. Microservices are a cloud focused architecture type. Data generated from a local machine it is much less likely to be directly relatable to real world systems that might make use of the research.
 
-There are a variety of tools that help launch containers for microservices locally. Most of them are a subset or extension of Docker. 
+There are a variety of tools that help launch containers for microservices locally. Most of them are a subset or extension of Docker.
 
 \subsection{Candidates}
 \subsubsection{DeathStarBench}
-DeathStarBench is an open-source benchmark suite developed by Cornell University for research purposes. 
-It features a total of five complete services: A social network, a media service, hotel reservation, an e-commerce site, a banking system, and a drone coordination system for drone swarms. If chosen as the system for this project, we would have focused on one of the first three services. They are in a more complete state than the rest according to the project's GitHub page. 
+DeathStarBench is an open-source benchmark suite developed by Cornell University for research purposes.
+It features a total of five complete services: A social network, a media service, hotel reservation, an e-commerce site, a banking system, and a drone coordination system for drone swarms. If chosen as the system for this project, we would have focused on one of the first three services. They are in a more complete state than the rest according to the project's GitHub page.
 DeathStarBench makes a compelling choice as it seems to be quite complete and sophisticated, as well as being made specifically for testing \cite*{Gan2019}. \\
 However, there were two main issues with it.
 \begin{itemize}
@@ -49,39 +58,40 @@ However, there were two main issues with it.
 \end{itemize}
 The complex nature of the project made it unclear if we would be able to run it on our available hardware. There were also doubts as to how simple it would be to get up and running in the first place. We would run the risk of spending a lot of time getting it up and running, only to find that it doesn't have enough resources to run properly.
 \begin{figure}[ht]
-\centering 
-\includegraphics[width=\columnwidth]{Figures/Charts/media_microservices_architecture.png}
-\caption{The workload architecture for DSB's media service \cite*{Gan2019}.}
-\label{DSB-media}
+    \centering
+    \includegraphics[width=\columnwidth]{Figures/Charts/media_microservices_architecture.png}
+    \caption{The workload architecture for DSB's media service \cite*{Gan2019}.}
+    \label{DSB-media}
 \end{figure}
 \begin{itemize}
     \item Distributed tracing
 \end{itemize}
-DeathStarBench uses Jaeger to provide distributed tracing of the system. This provides detailed information about the behavior of the system during operation. Higher quality data lets ML models train more efficiently and provide more accurate and detailed results. 
+DeathStarBench uses Jaeger to provide distributed tracing of the system. This provides detailed information about the behavior of the system during operation. Higher quality data lets ML models train more efficiently and provide more accurate and detailed results.
 Working with this would put the focus of the project work into the realm of making use of the data for more detailed prediction purposes, something that is already quite thoroughly studied by people with more skills and resources \cite*{Bogatinovski}, \cite*{Nedelkoski2019}, \cite*{Zhou2021a}.
 
-
-
 \subsubsection{Sockshop}
-Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies" \cite*{Weaveworks}. It simulates an online sock retailer, complete with users, carts, catalogs etc. 
+Sockshop is a lightweight microservices demo created by Weaveworks inc. It is "intended to aid the demonstration and testing of microservice and cloud native technologies" \cite*{Weaveworks}. It simulates an online sock retailer, complete with users, carts, catalogs etc.
 It is an older, smaller project, and parts of it were used to build the larger DeathStarBench \cite*{Gan2019}.
-The smaller, less complex nature of this project means that it could feasibly run on our available home machines. 
-It is composed of 14 services running in individual containers. The messaging between them is handled by RabbitMQ, which runs as its own container as one of the 14. 
+The smaller, less complex nature of this project means that it could feasibly run on our available home machines.
+It is composed of 14 services running in individual containers. The messaging between them is handled by RabbitMQ, which runs as its own container as one of the 14.
 
-\begin{figure}[ht] 
-\centering 
-\includegraphics[width=\columnwidth]{Figures/Charts/sockshop-scope_trimmed.png}
-\caption{The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \cite*{Weaveworks}}
-\label{Sockshop architecture}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{Figures/Charts/sockshop-scope_trimmed.png}
+    \caption{The architecture of the sock shop shown using WeaveScope, Weaveworks' own mapping tool. \cite*{Weaveworks}}
+    \label{Sockshop architecture}
 \end{figure}
 
 Sockshop comes with some strong benefits:
 
 \begin{itemize}
-    \item Forgiving system requirements
+    \item Forgiving system requirements, enabling use of personal hardware instead of renting or borrowing
+    \item Very thorough Prometheus instrumentation, with thousands of features to select and chose from
+    \item Locust integration for stress testing out of the box
 \end{itemize}
 
-Of the strong candidates, this was the one most likely to not run into a hardware bottleneck on our computers. 
+Of the strong candidates, this was the one most likely to not run into a hardware bottleneck on our computers.
+It also seemed to have a relatively easy installation process.
 
 \begin{itemize}
     \item Centralized logging
@@ -93,18 +103,63 @@ There are also some major downsides to the Sockshop.
 
 \begin{itemize}
     \item Poor documentation
+    \item Partly closed source
+    \item Underlying issues with Docker implementation
 \end{itemize}
-The website for the project \cite*{Weaveworks} has documentation, but it gives few details about the underlying structure of the system. 
+The website for the project \cite*{Weaveworks} has documentation, but it gives few details about the underlying structure of the system.
 For example, it has Prometheus instrumentation. But it gives no information on which client libraries are installed where. Finding out requires digging through the source code and metrics.
-The project has been dead for some time. The last commit on GitHub as of time of writing was on August 17, 2021. 
+The project has been dead for some time. The last commit on GitHub as of time of writing was on August 17, 2021.\\
+The project is also not fully open source. It implements packages hosted by WeaveWorks on the Docker hub, but does not make the source code for those elements public. As an addendum, it was later discovered that their implementation on Docker for some reason prevented Docker from assigning hardware bottlenecks on the system, making consistent stress testing and replication more difficult.
 
 \subsubsection*{Spring petclinic}
-This is a project by the Spring petclinic community on Github.
+This is a project by the Spring petclinic community on Github \cite*{springboot}.
 Spring petclinic was a demo application created all the way back in 2004 to showcase the then brand new Spring framework.
-Since then, it has gone through several changes, but was put up on GitHub in 2013. 
+Since then, it has gone through several changes, but was put up on GitHub in 2013.
 It has since been developed into several forks that take the demo application in different directions.
 One of those directions is the \textit{spring-petclinic-microservices} fork, which showcases how one can split a monolithic application into microservices.
 This fork is currently by far the most popular of the forks.
-The petclinic demo application is quite simple, as it is essentially just a database system. It consists of only three main components. 
-By "main components", I mean microservices that focus on delivering the service to the end user.
-In addition to the main components, it comes with Prometheus, Grafana
+The petclinic demo application is quite simple, as it is essentially just a database system. It consists of only four main components.
+By "main components", I mean microservices that focus on delivering the service to the end user. As opposed to auxiliary components like monitoring and service discovery.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{Figures/Graphs/springboot-architecture.jpg}
+    \caption{The architecture graph of the microservices spring petclinic}
+    \label{Spring-petclinic-microservices}
+\end{figure}
+
+The sockshop from WeaveWorks was selected in the end on mainly pragmatic grounds: It guaranteed easy hosting on an available personal desktop computer. This way, there were no extra costs with renting a server to perform tests on.
+
+\section*{Data generation}
+Data generation would consist of creating stress test data by overloading the running microservice system while collecting every available metric from Prometheus.
+There were many rounds of experimentation to achieve this. The basic workflow for incrementally approaching a good data generation setup went like this:
+
+\begin{enumerate}
+    \item Start collecting system metrics
+    \item Run a Locust script with a given amount of user clients. The locust scripts would target the system in the following fashion: \begin{itemize}
+              \item Exclusively attack an HTTP API interface directly connected to a microservice, one such targeting per targetable microservice
+              \item Attack all services at once in an even pattern
+              \item Simply collect data while not attacking the system at all, to serve as a control group
+          \end{itemize}
+    \item Shut down Locust script while still collecting metrics for a while after, to catch the tail of the pattern and capture how the system stabilizes after
+    \item Analyze output data, Docker metrics on running containers and local system resource data to inform change to Locust parameters and stressing method
+    \item Repeat
+\end{enumerate}
+
+This process eventually created an automated script setup that pushed the hosting machine to its limits.
+The total amount of stress testing and collection done on the machine until the final set of metrics was ready amounted to well over 60 hours of runtime at full capacity.
+The end result was five labels across 178 files, with hundreds of thousands of data points. After that came the process of making sense of the data.
+
+\section*{Data preprocessing}
+The field of advanced time series analysis is quite underdeveloped. As mentioned in \cite*{Pasos}, much less consideration has been given to multivariate time series analysis than univariate, which is easier to work with and reason about.
+As such, there was need for experimentation and use of a framework made to fit the problem.
+The Python library \textit{sktime} was therefore a natural fit \cite*{Kiraly}. It is built upon the much more common Scikit-learn, with extensions specifically for working with time series data.
+The method of choice was to work with the various tools in sktime's toolbox and turn the data from a voluminous mess into something usable for either a user or a machine learning algorithm.
+To achieve this goal, one would have to figure out how to properly preprocess the data into something viable for either option.
+The built-in data processing and preparation functions of Scikit-learn and sktime were used liberally for this purpose.
+The methodology of this part just consisted of having some real data from the stress testing, and trying to refine it to have high variance, low redundancy, and retain as much information as possible in a more accessible manner than what was received from the Prometheus cleint.
+
+\section*{Visualization}
+The Python package Seaborn was used for visualization purposes after preprocessing to try to make sense of the resulting data. It is an extension for the matplotlib library, which is a visualization library for Python. Seaborn just provides some helper functions on top of matplotlib to make it easier to work with \cite*{Waskom2021}.
+The idea is that with sufficient data generation and preprocessing, it should with some visualization be evident if the data is varied enough and carries enough information to be useful to machine learning algorithms.
+It should also be possible to glean some relevant information about the system simply by looking that the resulting graphs.

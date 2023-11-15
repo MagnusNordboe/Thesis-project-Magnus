@@ -5,3 +5,10 @@
 {"rule":"EN_COMPOUNDS","sentence":"^\\QThis makes containers completely dependency and OS agnostic, since each container comes with the OS and packages they need to run their process Containers are similar to virtual machines, but much faster and more lightweight.\\E$"}
 {"rule":"EN_COMPOUNDS","sentence":"^\\QThis makes containers completely dependency and OS agnostic, since each container comes with the OS and packages they need to run their process.\\E$"}
 {"rule":"IN_A_X_MANNER","sentence":"^\\QWithout microservices one can still map out a program, but the boundary lines between units can often be hard to nail down in a satisfying manner.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QThe program that automates stress testing cycles through each individual locust task once, each locust task stressing one endpoint on the microservices system.\\E$"}
+{"rule":"FEWER_LESS","sentence":"^\\QA future project with less data to work with would have to work in some solution to implement imputation only within the same class label or some other solution.\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QFurther work.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe scaler is the scikit-learn StandardScaler, which\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q[ label 1] [ label 2] 2 Figures side by side\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QRemove non-ubiquitous columns.\\E$"}
+{"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QThe initial goal of the project was to properly identify a clear path to modelling and diagnosing a microservices system using stress testing and an automated pipeline.\\E$"}

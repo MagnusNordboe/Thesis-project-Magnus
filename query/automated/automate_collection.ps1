@@ -10,8 +10,6 @@ while ($true) {
     #Give it a few seconds for prometheus to start
     Start-Sleep -Seconds 5
     try {
-        # Replace "your_python_script.py" with the name of your Python script
-        # Add any parameters after the script name if needed
         python program.py
 
         # Wait for 20 minutes (20*60 seconds)

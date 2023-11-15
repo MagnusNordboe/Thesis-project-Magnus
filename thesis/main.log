@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.23)  24 SEP 2023 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.23)  15 NOV 2023 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/magnus/Documents/thesis-project/thesis/main.tex
+**/home/magnus/Documents/thesis-project/thesis/main
 (/home/magnus/Documents/thesis-project/thesis/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -305,6 +305,9 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/underscore/underscore.sty
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
@@ -663,6 +666,12 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count447
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count448
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
  (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -682,11 +691,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count447
+\c@section@level=\count449
 )
 \@linkdim=\dimen197
-\Hy@linkcounter=\count448
-\Hy@pagecounter=\count449
+\Hy@linkcounter=\count450
+\Hy@pagecounter=\count451
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -694,7 +703,7 @@ Now handling font encoding PD1 ...
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count450
+\Hy@SavedSpaceFactor=\count452
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -707,7 +716,7 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count451
+\c@Hy@tempcnt=\count453
 LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen198
  (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
@@ -715,7 +724,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count452
+\Fld@menulength=\count454
 \Field@Width=\dimen199
 \Fld@charsize=\dimen256
 Package hyperref Info: Hyper figures OFF on input line 6051.
@@ -729,13 +738,13 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count453
-\c@Item=\count454
-\c@Hfootnote=\count455
+\Hy@abspage=\count455
+\c@Item=\count456
+\c@Hfootnote=\count457
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 126.
+(scrhack)             need that hack, on input line 132.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
@@ -743,8 +752,8 @@ File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count456
-\c@bookmark@seq@number=\count457
+\Fld@listcount=\count458
+\c@bookmark@seq@number=\count459
  (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -754,53 +763,53 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip82
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 126.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 126.
-Package hyperref Info: Option `colorlinks' set `true' on input line 126.
-Package hyperref Info: Option `unicode' set `true' on input line 126.
-Package hyperref Info: Option `breaklinks' set `true' on input line 126.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 132.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 132.
+Package hyperref Info: Option `colorlinks' set `true' on input line 132.
+Package hyperref Info: Option `unicode' set `true' on input line 132.
+Package hyperref Info: Option `breaklinks' set `true' on input line 132.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 126.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 132.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Methodology.aux) (./Chapters/Chapter3.aux))
+) (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Methodology.aux) (./Chapters/Chapter3.aux) (./Chapters/Pipeline.aux) (./Chapters/Results.aux) (./Chapters/Discussion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 126.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 132.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count458
+\scratchcounter=\count460
 \scratchdimen=\dimen257
 \scratchbox=\box117
-\nofMPsegments=\count459
-\nofMParguments=\count460
+\nofMPsegments=\count461
+\nofMParguments=\count462
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count461
+\MPscratchCnt=\count463
 \MPscratchDim=\dimen258
-\MPnumerator=\count462
-\makeMPintoPDFobject=\count463
+\MPnumerator=\count464
+\makeMPintoPDFobject=\count465
 \everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -849,14 +858,14 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \abbrevname on input line 126.
-Package scrbase Info: activating english \byname on input line 126.
-Package scrbase Info: activating english \acknowledgementname on input line 126.
-Package scrbase Info: activating english \authorshipname on input line 126.
-Package scrbase Info: activating english \constantsname on input line 126.
-Package scrbase Info: activating english \symbolsname on input line 126.
-\c@lstlisting=\count464
-Package scrhack Info: undefining \float@addtolists on input line 126.
+Package scrbase Info: activating english \abbrevname on input line 132.
+Package scrbase Info: activating english \byname on input line 132.
+Package scrbase Info: activating english \acknowledgementname on input line 132.
+Package scrbase Info: activating english \authorshipname on input line 132.
+Package scrbase Info: activating english \constantsname on input line 132.
+Package scrbase Info: activating english \symbolsname on input line 132.
+\c@lstlisting=\count466
+Package scrhack Info: undefining \float@addtolists on input line 132.
 \big@size=\dimen259
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -873,10 +882,16 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 126.
-Package biblatex Info: Reference segment=0 on input line 126.
-Package hyperref Info: Link coloring ON on input line 126.
+ (./main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Heinrich2017':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 132.
+Package biblatex Info: Reference segment=0 on input line 132.
+Package hyperref Info: Link coloring ON on input line 132.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -887,97 +902,80 @@ Package hyperref Info: Link coloring ON on input line 126.
 
 
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2
-
-]
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 184.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 191.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 1: section
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 194.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 201.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 194.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 201.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 194.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 201.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 194.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 201.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 194.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 201.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-) [3] [4
+) [2
 
-] [5] [6
+] [3
 
 ]
 --------------------
  Abstract
 --------------------
 1: section
-[7] [8
+[4
 
 ]
 --------------------
  Acknowledgements
 --------------------
 1: section
-[9] [10
+[5
 
 ] (./main.toc
 1: section
-[11])
+[6
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [12] (./main.lof)
+ [7] (./main.lof
+1: section
+[8
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-
-1: section
-[13
-
-] [14
-
-] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
-
-1: section
-[15] [16
-
-]
---------------------
- Dedicatory
---------------------
-1: section
-[17] [18
-
-]
+ [9]
 1: section
 \openout2 = `Chapters/Chapter1.aux'.
 
 (./Chapters/Chapter1.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--23
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
@@ -985,14 +983,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
 [1
 
 
-]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 64.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 64.
-) [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+
+]) [2]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
@@ -1004,110 +996,409 @@ Chapter 2.
 
 
 ]
-<Figures/Graphs/capacity_scaling.pdf, id=387, 722.7pt x 433.62pt>
+<Figures/Graphs/capacity_scaling.pdf, id=407, 722.7pt x 433.62pt>
 File: Figures/Graphs/capacity_scaling.pdf Graphic file (type pdf)
 <use Figures/Graphs/capacity_scaling.pdf>
 Package pdftex.def Info: Figures/Graphs/capacity_scaling.pdf  used on input line 56.
 (pdftex.def)             Requested size: 389.23535pt x 233.54259pt.
  [4] [5 <./Figures/Graphs/capacity_scaling.pdf>]
-<Figures/containers_vs_VMs.png, id=432, 1229.59375pt x 502.87875pt>
-File: Figures/containers_vs_VMs.png Graphic file (type png)
-<use Figures/containers_vs_VMs.png>
-Package pdftex.def Info: Figures/containers_vs_VMs.png  used on input line 118.
-(pdftex.def)             Requested size: 486.54234pt x 198.98405pt.
- [6 <./Figures/containers_vs_VMs.png>]
-<Figures/scaling.png, id=438, 853.1875pt x 521.95pt>
+<Figures/scaling.png, id=453, 853.1875pt x 521.95pt>
 File: Figures/scaling.png Graphic file (type png)
 <use Figures/scaling.png>
-Package pdftex.def Info: Figures/scaling.png  used on input line 142.
+Package pdftex.def Info: Figures/scaling.png  used on input line 121.
 (pdftex.def)             Requested size: 486.54234pt x 297.65794pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--158
+Underfull \hbox (badness 10000) in paragraph at lines 127--137
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--176
+[6 <./Figures/scaling.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--155
 
  []
 
-[7 <./Figures/scaling.png>] [8]
-<Figures/two_phase_commit.png, id=456, 706.89093pt x 535.2497pt>
+[7]
+<Figures/containers_vs_VMs.png, id=470, 1229.59375pt x 502.87875pt>
+File: Figures/containers_vs_VMs.png Graphic file (type png)
+<use Figures/containers_vs_VMs.png>
+Package pdftex.def Info: Figures/containers_vs_VMs.png  used on input line 189.
+(pdftex.def)             Requested size: 486.54234pt x 198.98405pt.
+ [8 <./Figures/containers_vs_VMs.png>]
+<Figures/two_phase_commit.png, id=477, 706.89093pt x 535.2497pt>
 File: Figures/two_phase_commit.png Graphic file (type png)
 <use Figures/two_phase_commit.png>
-Package pdftex.def Info: Figures/two_phase_commit.png  used on input line 227.
+Package pdftex.def Info: Figures/two_phase_commit.png  used on input line 214.
 (pdftex.def)             Requested size: 233.53824pt x 176.82895pt.
 
-Underfull \hbox (badness 1721) in paragraph at lines 231--246
+Underfull \hbox (badness 1721) in paragraph at lines 219--234
 []\T1/ppl/m/n/10.95 Data con-sis-tency (and the lack thereof) is
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 231--246
+Underfull \hbox (badness 1082) in paragraph at lines 219--234
 \T1/ppl/m/n/10.95 Updating data can be a chal-leng-ing af-fair.
  []
 
-[9 <./Figures/two_phase_commit.png>]) [10]
+<Figures/two_generals_problem.png, id=481, 1084.05pt x 1355.0625pt>
+File: Figures/two_generals_problem.png Graphic file (type png)
+<use Figures/two_generals_problem.png>
+Package pdftex.def Info: Figures/two_generals_problem.png  used on input line 245.
+(pdftex.def)             Requested size: 233.53824pt x 291.9117pt.
+[9 <./Figures/two_phase_commit.png>]
+Underfull \hbox (badness 1077) in paragraph at lines 252--253
+\T1/ppl/m/n/10.95 nodes cause a mes-sage to dis-play as
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 254--255
+[]\T1/ppl/m/n/10.95 Events that never suc-cess-fully com-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 255--256
+[]\T1/ppl/m/n/10.95 Uncountable net-work and tech-nol-ogy
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 259--267
+\T1/ppl/m/n/10.95 The theme of trade-offs is con-sis-tent when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--267
+
+ []
+
+[10 <./Figures/two_generals_problem.png>] [11]) [12]
 \openout2 = `Chapters/Methodology.aux'.
 
  (./Chapters/Methodology.tex
 Chapter 3.
+
+
+pdfTeX warning: pdflatex (file ./Figures/Charts/contribution.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figures/Charts/contribution.drawio.pdf, id=504, 327.14218pt x 278.96219pt>
+File: Figures/Charts/contribution.drawio.pdf Graphic file (type pdf)
+<use Figures/Charts/contribution.drawio.pdf>
+Package pdftex.def Info: Figures/Charts/contribution.drawio.pdf  used on input line 7.
+(pdftex.def)             Requested size: 486.54234pt x 414.905pt.
 1: section
-[11
+[13
 
 
 
 
-]
-<Figures/Graphs/Cloud_market_share.jpeg, id=476, 1204.5pt x 865.2325pt>
+ <./Figures/Charts/contribution.drawio.pdf>]
+<Figures/Graphs/Cloud_market_share.jpeg, id=519, 1204.5pt x 865.2325pt>
 File: Figures/Graphs/Cloud_market_share.jpeg Graphic file (type jpg)
 <use Figures/Graphs/Cloud_market_share.jpeg>
-Package pdftex.def Info: Figures/Graphs/Cloud_market_share.jpeg  used on input line 29.
+Package pdftex.def Info: Figures/Graphs/Cloud_market_share.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 486.54234pt x 349.50629pt.
- [12 <./Figures/Graphs/Cloud_market_share.jpeg>]
-<Figures/Charts/media_microservices_architecture.png, id=484, 1279.02844pt x 932.73468pt>
+ [14] [15 <./Figures/Graphs/Cloud_market_share.jpeg>]
+<Figures/Charts/media_microservices_architecture.png, id=532, 1279.02844pt x 932.73468pt>
 File: Figures/Charts/media_microservices_architecture.png Graphic file (type png)
 <use Figures/Charts/media_microservices_architecture.png>
-Package pdftex.def Info: Figures/Charts/media_microservices_architecture.png  used on input line 53.
+Package pdftex.def Info: Figures/Charts/media_microservices_architecture.png  used on input line 62.
 (pdftex.def)             Requested size: 486.54234pt x 354.8129pt.
- [13 <./Figures/Charts/media_microservices_architecture.png>]
-<Figures/Charts/sockshop-scope_trimmed.png, id=497, 432.11438pt x 198.7425pt>
+ [16 <./Figures/Charts/media_microservices_architecture.png>]
+<Figures/Charts/sockshop-scope_trimmed.png, id=545, 432.11438pt x 198.7425pt>
 File: Figures/Charts/sockshop-scope_trimmed.png Graphic file (type png)
 <use Figures/Charts/sockshop-scope_trimmed.png>
-Package pdftex.def Info: Figures/Charts/sockshop-scope_trimmed.png  used on input line 73.
+Package pdftex.def Info: Figures/Charts/sockshop-scope_trimmed.png  used on input line 80.
 (pdftex.def)             Requested size: 486.54234pt x 223.7849pt.
- [14 <./Figures/Charts/sockshop-scope_trimmed.png>]) [15]
+ [17 <./Figures/Charts/sockshop-scope_trimmed.png>]
+<Figures/Graphs/springboot-architecture.jpg, id=558, 1606.0pt x 1204.5pt>
+File: Figures/Graphs/springboot-architecture.jpg Graphic file (type jpg)
+<use Figures/Graphs/springboot-architecture.jpg>
+Package pdftex.def Info: Figures/Graphs/springboot-architecture.jpg  used on input line 126.
+(pdftex.def)             Requested size: 486.54234pt x 364.89996pt.
+ [18] [19 <./Figures/Graphs/springboot-architecture.jpg>]) [20]
 \openout2 = `Chapters/Chapter3.aux'.
 
- (./Chapters/Chapter3.tex [16
-
-
-
-
-]
+ (./Chapters/Chapter3.tex
 Chapter 4.
-1: section
-[17] [18]
-<Figures/Graphs/variance_normalization_stardization.png, id=528, 859.2903pt x 426.393pt>
-File: Figures/Graphs/variance_normalization_stardization.png Graphic file (type png)
-<use Figures/Graphs/variance_normalization_stardization.png>
-Package pdftex.def Info: Figures/Graphs/variance_normalization_stardization.png  used on input line 60.
-(pdftex.def)             Requested size: 486.54234pt x 241.42648pt.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-<Figures/Graphs/Total_variance.png, id=529, 409.7709pt x 299.1978pt>
-File: Figures/Graphs/Total_variance.png Graphic file (type png)
-<use Figures/Graphs/Total_variance.png>
-Package pdftex.def Info: Figures/Graphs/Total_variance.png  used on input line 87.
-(pdftex.def)             Requested size: 486.54234pt x 355.2691pt.
-) [19 <./Figures/Graphs/variance_normalization_stardization.png>] [20 <./Figures/Graphs/Total_variance.png>]
 1: section
 [21
 
 
 
-] [22] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Methodology.aux) (./Chapters/Chapter3.aux))
+
+] [22]
+<Figures/Graphs/variance_normalization_stardization.png, id=599, 859.2903pt x 426.393pt>
+File: Figures/Graphs/variance_normalization_stardization.png Graphic file (type png)
+<use Figures/Graphs/variance_normalization_stardization.png>
+Package pdftex.def Info: Figures/Graphs/variance_normalization_stardization.png  used on input line 62.
+(pdftex.def)             Requested size: 486.54234pt x 241.42648pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
+
+ []
+
+[23 <./Figures/Graphs/variance_normalization_stardization.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 92.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+<Figures/Monotonic_differencing.pdf, id=605, 703.62875pt x 360.34625pt>
+File: Figures/Monotonic_differencing.pdf Graphic file (type pdf)
+<use Figures/Monotonic_differencing.pdf>
+Package pdftex.def Info: Figures/Monotonic_differencing.pdf  used on input line 110.
+(pdftex.def)             Requested size: 486.54234pt x 249.16702pt.
+<Figures/Graphs/Total_variance.png, id=606, 409.7709pt x 299.1978pt>
+File: Figures/Graphs/Total_variance.png Graphic file (type png)
+<use Figures/Graphs/Total_variance.png>
+Package pdftex.def Info: Figures/Graphs/Total_variance.png  used on input line 117.
+(pdftex.def)             Requested size: 486.54234pt x 355.2691pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--143
+
+ []
+
+[24{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+<Figures/Graphs/pca-linear.jpg, id=628, 501.875pt x 266.9975pt>
+File: Figures/Graphs/pca-linear.jpg Graphic file (type jpg)
+<use Figures/Graphs/pca-linear.jpg>
+Package pdftex.def Info: Figures/Graphs/pca-linear.jpg  used on input line 154.
+(pdftex.def)             Requested size: 486.54234pt x 258.8528pt.
+) [25 <./Figures/Monotonic_differencing.pdf>] [26 <./Figures/Graphs/Total_variance.png> <./Figures/Graphs/pca-linear.jpg>]
+\openout2 = `Chapters/Pipeline.aux'.
+
+ (./Chapters/Pipeline.tex
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 51.
+ [27
+
+
+
+] [28]
+
+pdfTeX warning: pdflatex (file ./Figures/Charts/Collection method-Folder-structure.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figures/Charts/Collection method-Folder-structure.drawio.pdf, id=734, 264.02641pt x 290.0436pt>
+File: Figures/Charts/Collection method-Folder-structure.drawio.pdf Graphic file (type pdf)
+<use Figures/Charts/Collection method-Folder-structure.drawio.pdf>
+Package pdftex.def Info: Figures/Charts/Collection method-Folder-structure.drawio.pdf  used on input line 135.
+(pdftex.def)             Requested size: 486.54234pt x 534.5364pt.
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--263
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 348--352
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
+
+ []
+
+[34]) [35] [36 <./Figures/Charts/Collection method-Folder-structure.drawio.pdf>]
+\openout2 = `Chapters/Results.aux'.
+
+ (./Chapters/Results.tex
+1: section
+[37
+
+
+
+
+]
+<Figures/Graphs/Vis/nopca_total.png, id=983, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total.png  used on input line 42.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+
+Overfull \hbox (10.28465pt too wide) in paragraph at lines 47--54
+\T1/ppl/m/n/10.95 con-trol group, ex-hibit con-sis-tent fluc-tu-a-tions in the \T1/ppl/m/it/10.95 nodejs_-event-loop_-lag_-seconds&edge-router:80&frontend
+ []
+
+<Figures/Graphs/Vis/nopca_total2.png, id=986, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total2.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total2.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total2.png  used on input line 62.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+<Figures/Graphs/Vis/nopca_total3.png, id=987, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total3.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total3.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total3.png  used on input line 69.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+<Figures/Graphs/Vis/nopca_total4.png, id=988, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total4.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total4.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total4.png  used on input line 76.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+<Figures/Graphs/Vis/nopca_total5.png, id=989, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total5.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total5.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total5.png  used on input line 83.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+<Figures/Graphs/Vis/nopca_total6.png, id=990, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total6.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total6.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total6.png  used on input line 90.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+<Figures/Graphs/Vis/nopca_total7.png, id=991, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/nopca_total7.png Graphic file (type png)
+<use Figures/Graphs/Vis/nopca_total7.png>
+Package pdftex.def Info: Figures/Graphs/Vis/nopca_total7.png  used on input line 97.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+[38 <./Figures/Graphs/Vis/nopca_total.png>]
+<Figures/Graphs/Vis/ubiq1.png, id=1003, 1676.2625pt x 913.4125pt>
+File: Figures/Graphs/Vis/ubiq1.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq1.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq1.png  used on input line 113.
+(pdftex.def)             Requested size: 486.54234pt x 265.11978pt.
+<Figures/Graphs/Vis/ubiq2.png, id=1004, 1989.4325pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq2.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq2.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq2.png  used on input line 120.
+(pdftex.def)             Requested size: 486.54234pt x 222.14952pt.
+<Figures/Graphs/Vis/ubiq3.png, id=1005, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq3.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq3.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq3.png  used on input line 127.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq4.png, id=1006, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq4.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq4.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq4.png  used on input line 134.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq5.png, id=1007, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq5.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq5.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq5.png  used on input line 141.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq6.png, id=1008, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq6.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq6.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq6.png  used on input line 148.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq7.png, id=1009, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq7.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq7.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq7.png  used on input line 155.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq8.png, id=1010, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq8.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq8.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq8.png  used on input line 162.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq9.png, id=1011, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq9.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq9.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq9.png  used on input line 169.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq10.png, id=1012, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq10.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq10.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq10.png  used on input line 176.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq11.png, id=1013, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq11.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq11.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq11.png  used on input line 183.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq12.png, id=1014, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq12.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq12.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq12.png  used on input line 190.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq13.png, id=1015, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq13.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq13.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq13.png  used on input line 197.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/ubiq14.png, id=1016, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/ubiq14.png Graphic file (type png)
+<use Figures/Graphs/Vis/ubiq14.png>
+Package pdftex.def Info: Figures/Graphs/Vis/ubiq14.png  used on input line 204.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+<Figures/Graphs/Vis/pca1.png, id=1017, 1673.25125pt x 908.39375pt>
+File: Figures/Graphs/Vis/pca1.png Graphic file (type png)
+<use Figures/Graphs/Vis/pca1.png>
+Package pdftex.def Info: Figures/Graphs/Vis/pca1.png  used on input line 217.
+(pdftex.def)             Requested size: 486.54234pt x 264.13435pt.
+) [39 <./Figures/Graphs/Vis/nopca_total2.png>] [40 <./Figures/Graphs/Vis/nopca_total3.png> <./Figures/Graphs/Vis/nopca_total4.png>] [41 <./Figures/Graphs/Vis/nopca_total5.png> <./Figures/Graphs/Vis/nopca_total6.png>] [42 <./Figures/Graphs/Vis/nopca_total7.png> <./Figures/Graphs/Vis/ubiq1.png>] [43 <./Figures/Graphs/Vis/ubiq2.png> <./Figures/Graphs/Vis/ubiq3.png>] [44 <./Figures/Graphs/Vis/ubiq4.png> <./Figures/Graphs/Vis/ubiq5.png>] [45 <./Figures/Graphs/Vis/ubiq6.png> <./Figures/Graphs/Vis/ubiq7.png>] [46 <./Figures/Graphs/Vis/ubiq8.png> <./Figures/Graphs/Vis/ubiq9.png>] [47 <./Figures/Graphs/Vis/ubiq10.png> <./Figures/Graphs/Vis/ubiq11.png>] [48 <./Figures/Graphs/Vis/ubiq12.png> <./Figures/Graphs/Vis/ubiq13.png>] [49 <./Figures/Graphs/Vis/ubiq14.png> <./Figures/Graphs/Vis/pca1.png>]
+\openout2 = `Chapters/Discussion.aux'.
+
+ (./Chapters/Discussion.tex
+1: section
+[50
+
+
+
+
+]
+<Figures/circuit_breaker.png, id=1095, 2433.09pt x 423.5825pt>
+File: Figures/circuit_breaker.png Graphic file (type png)
+<use Figures/circuit_breaker.png>
+Package pdftex.def Info: Figures/circuit_breaker.png  used on input line 34.
+(pdftex.def)             Requested size: 486.54234pt x 84.70207pt.
+ [51 <./Figures/circuit_breaker.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 62--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--95
+
+ []
+
+[52]
+Overfull \hbox (8.20033pt too wide) in paragraph at lines 96--105
+[]\T1/ppl/m/n/10.95 Inside the var-i-ous func-tions in col-lec-tion, sort-ing and stor-age are var-i-ous long-winded workarounds
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--105
+
+ []
+
+[53]) [54]
+1: section
+[55
+
+
+
+]
+Overfull \hbox (295.2136pt too wide) in paragraph at lines 324--324
+\T1/cmtt/m/n/10.95 eyJpZCI6IjEyZTJhZDI3LTk5ZTMtNDkyNy1iMWQyLThiNWJiN2RjOWQ1NyIsImRhdGEiOnt9LCJyYW5kb20iOiI1NGUxMWI0NGYyNzYwNWYxOTA1M2ZkODBmNjNkNjk4MCJ9 .
+ []
+
+[56] (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Methodology.aux) (./Chapters/Chapter3.aux) (./Chapters/Pipeline.aux) (./Chapters/Results.aux) (./Chapters/Discussion.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1117,7 +1408,7 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B99F05125E36D469DC9F0A08CA4BDCC8;6124.
+(rerunfilecheck)             Checksum: 104420377E54977DFABDB03CC5A6CA13;6114.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1128,18 +1419,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31401 strings out of 474928
- 675579 string characters out of 5759533
- 1966791 words of memory out of 5000000
- 52435 multiletter control sequences out of 15000+600000
- 605721 words of font info for 104 fonts, out of 8000000 for 9000
+ 32423 strings out of 474928
+ 697638 string characters out of 5759533
+ 2335791 words of memory out of 5000000
+ 53061 multiletter control sequences out of 15000+600000
+ 605160 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,21n,94p,1915b,2738s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (40 pages, 839491 bytes).
+ 96i,21n,94p,1911b,2763s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (65 pages, 12529038 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
- 134 named destinations out of 1000 (max. 500000)
- 414 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1336 PDF objects out of 1440 (max. 8388607)
+ 1138 compressed objects within 12 object streams
+ 502 named destinations out of 1000 (max. 500000)
+ 559 words of extra memory for PDF output out of 10000 (max. 10000000)
 
